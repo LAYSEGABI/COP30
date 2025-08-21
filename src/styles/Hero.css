@@ -1,0 +1,86 @@
+/* src/styles/Hero.css */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0) 100%);
+
+    overflow: hidden;
+
+    &> video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        /* fica atrás do conteúdo */
+    }
+
+    &>.container {
+        position: relative;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+        height: 90vh;
+        max-height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 4rem;
+        justify-content: center;
+        max-width: 1280px;
+        margin: 0 auto;
+        gap: 1rem;
+
+        &>h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            width: 70%;
+        }
+
+        &>p {
+            font-size: 1.2rem;
+            width: 70%;
+        }
+
+        &>.CTAs {
+            display: flex;
+            gap: 1rem;
+
+            &> :nth-child(1) {
+                background: rgb(250, 249, 249);
+                color: #04642E;
+                padding: 1rem 2rem;
+                font-weight: bold;
+                border-radius: 20px;
+                text-decoration: none;
+                transition: .5s;
+
+                &:hover {
+                    background-color: #d4ffe7;
+                    transform: translateY(-5px);
+
+                }
+            }
+
+            &> :nth-child(2) {
+                background: #0720129a;
+                color: #ffffff;
+                padding: 1rem 2rem;
+                font-weight: bold;
+                border-radius: 20px;
+                text-decoration: none;
+                border: 2px solid #3d9b18b6;
+                transition: .5s;
+
+                &:hover {
+                    background-color: #07582bb7;
+                    transform: translateY(-5px);
+
+                }
+            }
+        }
+    }
+}

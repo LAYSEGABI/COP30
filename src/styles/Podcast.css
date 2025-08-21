@@ -1,0 +1,31 @@
+.podcast {
+    background-color: #004F2D;
+    width: 100%;
+    
+    &>.container {
+        margin: 0 auto;
+        display: flex;
+        max-width: 1280px;
+        padding: 3rem 0;
+        
+        
+        &>.descricao {
+            padding: 2rem;
+            padding-left: 6rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            &>h5 {
+                background-color: whitesmoke;
+                width: fit-content;
+                padding: .3rem .5rem;
+                border-radius: 5px;
+                color: #05381C;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Archivo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+/* Para navegadores baseados em WebKit (Chrome, Edge, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 15px; /* largura da barra vertical */
+  height: 8px; /* altura da barra horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* cor do trilho */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #074C2A; /* cor do "thumb" */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #074C2A; /* cor ao passar o mouse */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin; /* opções: auto | thin | none */
+  scrollbar-color: #ffffff #074C2A; /* thumb | track */
+}
