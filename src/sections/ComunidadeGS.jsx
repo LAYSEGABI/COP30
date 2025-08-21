@@ -8,7 +8,7 @@ import ImgProjeto from "../assets/ImgProjeto.png";
 
 function ComunidadeGS() {
   return (
-    <section className="global-shapers">
+    <section id="comunidade" className="global-shapers">
       <div className="container">
         <div className="comunidade-gs">
           <h5>COMUNIDADE</h5>
@@ -64,39 +64,60 @@ function ComunidadeGS() {
               modules={[Navigation, Pagination]}
               spaceBetween={20} // espaçamento entre slides
               loop={true}
-              slidesPerView={3}
+              slidesPerView={4}
               navigation={{ clickable: true }} // setas de navegação
             >
               <SwiperSlide>
                 <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide><SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide><SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide><SwiperSlide>
-                <div className="card-projeto">
-                   <img src={ImgProjeto} alt="" />
+              <div className="card-projeto">
+                  <img src={ImgProjeto} alt="" />
+                  <h3>Clima Pampa</h3>
+                  <p>Fortalecimento da agenda climática</p>
+                  <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
             </Swiper>

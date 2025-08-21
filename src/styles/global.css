@@ -12,6 +12,10 @@ body {
     font-family: 'Archivo', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: inherit;

@@ -10,13 +10,14 @@ function Header() {
           </div>
           <nav className="header__nav">
             <ul>
-              <li><a href="#">Comunidade</a></li>
-              <li><a href="#">COP 30</a></li>
-              <li><a href="#">Podcast</a></li>
-              <li><a href="#">Artigos</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="#sobre-nos">Sobre nós</a></li>
+              <li><a href="#comunidade">Comunidade</a></li>
+              <li className="cop30"><a href="#cop30">COP 30</a></li>
+              <li><a href="#podcast">Podcast</a></li>
+              <li><a href="#artigos">Artigos</a></li>
+        
             </ul>
-            <a className="btn-cta">Junte-se a nós</a>
+            <a href="#footer" className="btn-cta">Contate-nos</a>
           </nav>
       </div>
     </header>

@@ -6,7 +6,7 @@ import IconDownload from "../assets/download.svg";
 
 function GuiaCOP30() {
   return (
-    <section className="GuiaCOP30">
+    <section id='cop30' className="GuiaCOP30">
       <h5>COP 30</h5>
       <h2>COP30: O Clima no Centro da Amazônia</h2>
       <p>
