@@ -1,5 +1,5 @@
 import '../styles/GuiaCOP30.css';
-import ImgGuiaCOP from "../assets/ImgGuiaCOP.png";
+import ImgGuiaCOP from "../assets/ImgGuiaCop.png";
 import ImgPDF from "../assets/imgpdf.png";
 import IconDownload from "../assets/download.svg";
 
