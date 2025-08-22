@@ -4,7 +4,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css"; // estilos básicos
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ImgProjeto from "../assets/ImgProjeto.png"; 
+import ImgProjeto from "../assets/ImgProjeto.png";
 
 function ComunidadeGS() {
   return (
@@ -22,9 +22,9 @@ function ComunidadeGS() {
             <div className="conteudo">
               <h3>Hubs que estão no clima da COP</h3>
               <p>
-                +20 hubs nacionais e internacionais unidos em
-                prol da justiça climática. Na COP30, nossa voz
-                ecoa diretamente da Amazônia para o mundo.
+                +20 hubs nacionais e internacionais unidos em prol da justiça
+                climática. Na COP30, nossa voz ecoa diretamente da Amazônia para
+                o mundo.
               </p>
               <p>
                 Criada em 2011 pelo Fórum Econômico Mundial, a Global Shapers
@@ -62,60 +62,73 @@ function ComunidadeGS() {
           <div className="container-projetos">
             <Swiper
               modules={[Navigation, Pagination]}
-              spaceBetween={20} // espaçamento entre slides
+              spaceBetween={20} 
               loop={true}
               slidesPerView={4}
-              navigation={{ clickable: true }} // setas de navegação
+              navigation={{ clickable: true }}
+              breakpoints={{
+                
+                768: {
+                  slidesPerView: 2, 
+                },
+                480: {
+                  slidesPerView: 1,
+                  spaceBetween: 10
+                },
+              }}
             >
               <SwiperSlide>
                 <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa1</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-              <div className="card-projeto">
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa2</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-              <div className="card-projeto">
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa3</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-              <div className="card-projeto">
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa4</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
-              </SwiperSlide><SwiperSlide>
-              <div className="card-projeto">
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa5</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
-              </SwiperSlide><SwiperSlide>
-              <div className="card-projeto">
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa6</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
-              </SwiperSlide><SwiperSlide>
-              <div className="card-projeto">
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="card-projeto">
                   <img src={ImgProjeto} alt="" />
-                  <h3>Clima Pampa</h3>
+                  <h3>Clima Pampa7</h3>
                   <p>Fortalecimento da agenda climática</p>
                   <p>Porto Alegre - RS, Brasil</p>
                 </div>
