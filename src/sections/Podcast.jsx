@@ -1,5 +1,5 @@
 import Headphones from "../assets/headphones.svg";
-import ImgPodcast from "../assets/ImgPodcast.png";
+import ImgPodcast from "../assets/imgPodcast.png";
 import '../styles/Podcast.css';
 
 function Podcast() {
