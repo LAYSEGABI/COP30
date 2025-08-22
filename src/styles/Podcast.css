@@ -81,3 +81,35 @@
         }
     }
 }
+
+@media (max-width: 870px) {
+    .podcast {
+        & > .container {
+            padding: 1rem;
+
+            & > .bloco {
+                padding: 1rem;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .podcast {
+        & > .container {
+            padding: 1rem;
+
+            & > .bloco {
+                padding: 1rem;
+                gap: 2rem;
+                flex-direction: column;
+
+                & > .descricao {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
