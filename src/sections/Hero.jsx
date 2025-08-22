@@ -18,8 +18,8 @@ function HeroSection() {
           climática global.
         </p>
         <div className="CTAs">
-          <a href="#">Conhecer o Projeto</a>
-          <a href="#">Acessar o Guia COP30</a>
+          <a href="#sobre-nos">Conhecer o Projeto</a>
+          <a href="#cop30">Acessar o Guia COP30</a>
         </div>
       </div>
     </section>

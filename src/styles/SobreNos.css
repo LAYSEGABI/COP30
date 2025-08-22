@@ -157,8 +157,6 @@
     }
 }
 
-
-
 .time {
     width: 100%;
     overflow: hidden;
@@ -191,8 +189,6 @@
     justify-content: space-between;
 }
 
-
-
 .swiper-slide {
     transition: 0.5s;
     width: 200px !important;
@@ -201,8 +197,6 @@
     gap: 0;
 }
 
-
-
 .card-equipe {
     background: rgb(255, 255, 255);
     border-radius: 10px;
@@ -210,6 +204,7 @@
     height: 220px;
     color: rgb(24, 49, 24);
     width: 200px;
+
     text-align: center;
 
     &>.perfil {
@@ -251,7 +246,78 @@
         margin: .5rem 0;
     }
 
-    & > p {
+    &>p {
         opacity: 0.9;
+    }
+}
+
+@media (max-width: 800px) {
+    .sobre-nos {
+
+
+        &>.container {
+
+            &>.nosso-proposito {
+                padding: 1rem
+            }
+
+            &>.nossa-estrutura {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 630px) {
+    .sobre-nos {
+
+
+        &>.container {
+
+            &>.nosso-proposito {
+                flex-direction: column;
+                gap: 2rem;
+
+                &>.nosso-proposito-conteudo {
+                    width: 100%;
+                }
+
+                &>img {
+                    width: 80%;
+                }
+            }
+
+            &>.nossa-estrutura {
+                padding: 1rem;
+            }
+
+            &>.frase {
+
+
+                &>p {
+                    font-size: 1.2rem;
+
+                }
+
+                &>:nth-child(2) {
+
+                    margin-left: 0;
+                }
+
+                &>:nth-child(3) {
+
+                    margin-right: 0;
+
+                }
+            }
+
+        }
+    }
+
+    .card-equipe {
+        width: 180px;
+        height: fit-content;
+        padding: 20px 10px;
     }
 }
