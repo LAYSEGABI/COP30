@@ -10,7 +10,7 @@ function Header() {
           </div>
           <nav className="header__nav">
             <ul>
-              <li><a href="#sobre-nos">Sobre nós</a></li>
+              <li className="sobre-nos-header"><a href="#sobre-nos">Sobre nós</a></li>
               <li><a href="#comunidade">Comunidade</a></li>
               <li className="cop30"><a href="#cop30">COP 30</a></li>
               <li><a href="#podcast">Podcast</a></li>
