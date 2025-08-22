@@ -6,6 +6,7 @@ import SobreNos from '../sections/SobreNos.jsx';
 import ComunidadeGS from '../sections/ComunidadeGS.jsx';
 import GuiaCOP30 from '../sections/GuiaCOP30.jsx';
 import Podcast from '../sections/Podcast.jsx';
+import Artigos from '../sections/Artigos.jsx';
 import Footer from '../sections/Footer.jsx';
 
 
@@ -20,6 +21,7 @@ function Home() {
       <FaixaDivisao />
       <GuiaCOP30 />
       <Podcast />
+      <Artigos />
       <Footer />
     </>
   )
