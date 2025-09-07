@@ -50,7 +50,21 @@ function ComunidadeGS() {
                 </div>
               </div>
             </div>
-            <img src={MapaBrasil} alt="" />
+            <div class="map-container">
+              <img src={MapaBrasil} alt="Mapa do Brasil" class="map" />
+
+              <div class="map-popup">
+                <h3>Hub Belém</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Sit elit nisl
+                  tincidunt arcu pharetra.
+                </p>
+                <a href="https://www.instagram.com/globalshapershubbelem/" class="saiba-mais">
+                  Saiba mais
+                </a>
+              </div>
+
+            </div>
           </div>
 
           <h2>Projetos da Comunidade</h2>
@@ -62,18 +76,17 @@ function ComunidadeGS() {
           <div className="container-projetos">
             <Swiper
               modules={[Navigation, Pagination]}
-              spaceBetween={20} 
+              spaceBetween={20}
               loop={true}
               slidesPerView={4}
               navigation={{ clickable: true }}
               breakpoints={{
-                
                 768: {
-                  slidesPerView: 2, 
+                  slidesPerView: 2,
                 },
                 480: {
                   slidesPerView: 1,
-                  spaceBetween: 10
+                  spaceBetween: 10,
                 },
               }}
             >

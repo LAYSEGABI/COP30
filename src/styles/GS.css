@@ -87,9 +87,52 @@
                     }
                 }
 
-                &>img {
-                    width: 60%;
+                .map-container {
+                    position: relative;
+                    display: inline-block;
                 }
+
+                .map {
+                    width: 100%;
+                    display: block;
+                }
+
+                .map-popup {
+                    position: absolute;
+                    top: 50px;
+                    right: 10px;
+                    background: #fff;
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                    max-width: 220px;
+                }
+
+                .map-popup h3 {
+                    margin: 0;
+                    font-size: 1.3rem;
+                    color: #2C5C58;
+                }
+
+                .map-popup p {
+                    font-size: 14px;
+                    margin: 8px 0;
+                    color: #333;
+                }
+
+                .saiba-mais {
+                    display: inline-block;
+                    margin-top: 6px;
+                    color: #33a517;
+                    font-size: 1rem;
+                    text-decoration: none;
+                }
+
+                .saiba-mais:hover {
+                    text-decoration: underline;
+                }
+
+
 
             }
         }
@@ -168,6 +211,7 @@
 }
 
 
+
 @media (max-width: 900px) {
     .global-shapers {
         &>.container {
@@ -194,6 +238,69 @@
                     &>img {
                         width: 100%;
                         padding: 1rem 0;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 650px) {
+    .global-shapers {
+        &>.container {
+            padding: 1rem;
+
+            &>.comunidade-gs {
+                padding: 2rem 1rem;
+
+                &>.container-comunidade {
+                    .map {
+                        margin-top: 4rem;
+                    }
+
+                    .map-popup h3 {
+                        font-size: 1rem;
+                    }
+
+                    .map-popup {
+                        max-width: 160px;
+                        top: 10px;
+                        right: 10px;
+
+                        
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media (max-width: 650px) {
+    .global-shapers {
+        &>.container {
+            &>.comunidade-gs {
+           
+                &>.container-comunidade {
+
+                    .map-popup h3 {
+                        font-size: 1rem;
+                    }
+
+                
+
+                    .map-popup {
+                        max-width: 160px;
+                        top: 80px;
+                        right: 20px;
+
+                        & > p {
+                            display: none;
+                        }
                     }
                 }
             }

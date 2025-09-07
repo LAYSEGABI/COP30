@@ -1,5 +1,5 @@
 import Headphones from "../assets/headphones.svg";
-import ImgPodcast from "../assets/imgPodcast.png";
+import ImgPodcast from "../assets/Capa-Podcast-Shapers-pelo-Clima.png";
 import '../styles/Podcast.css';
 
 function Podcast() {
@@ -18,7 +18,7 @@ function Podcast() {
                     <div className="cardPodcast">
                         <img className="capaPodcast" src={ImgPodcast} alt="" />
                         <h4>Episódio 1: A Amazônia em Foco</h4>
-                        <p>Com linguagem leve e acessível, reunimos especialistas, ativistas e jovens para discutir os desafios e caminhos da transição climática.</p>
+                        <p>Reunimos especialistas, ativistas e jovens para discutir os desafios da transição climática.</p>
                         <a href=""><img src={Headphones}  alt="" />Ouvir agora</a>
                     </div>
                 </div>
