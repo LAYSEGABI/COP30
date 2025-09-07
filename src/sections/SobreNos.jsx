@@ -1,6 +1,12 @@
 import "../styles/SobreNos.css";
 import galho from "../assets/galho.png";
+
 import megafone from "../assets/megafone.svg";
+import infraIcon from "../assets/infraIcon.svg";
+import parceriasIcon from "../assets/parceriasIcon.svg";
+import goverIcon from "../assets/goverIcon.svg";
+import formacaoIcon from "../assets/fomacaoIcon.svg";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import seta from "../assets/seta.svg";
@@ -50,48 +56,40 @@ function SobreNos() {
               </a>
             </div>
             <div className="card">
-              <h4>Comunicação</h4>
-              <img src={megafone} alt="" />
+              <h4>Infraestrutura</h4>
+              <img src={infraIcon} alt="" />
               <p>
-                Executar comunicação estratégica entre os hubs, ampliando o
-                alcance, engajamento e o acesso à informação sobre a COP30,
-                pautas e temas .
+                Garantir os recursos para a realização das atividades, com processos sustentáveis, seguros e eficientes que apoiem a logística do projeto.
               </p>
               <a href="">
                 Saiba mais <img src={seta} alt="" />
               </a>
             </div>{" "}
             <div className="card">
-              <h4>Comunicação</h4>
-              <img src={megafone} alt="" />
+              <h4>Parcerias</h4>
+              <img src={parceriasIcon} alt="" />
               <p>
-                Executar comunicação estratégica entre os hubs, ampliando o
-                alcance, engajamento e o acesso à informação sobre a COP30,
-                pautas e temas .
+                Identificar oportunidades, alianças estratégicas e fortalecer relações institucionais, conectando Shapers com iniciativas, redes e eventos.
               </p>
               <a href="">
                 Saiba mais <img src={seta} alt="" />
               </a>
             </div>{" "}
             <div className="card">
-              <h4>Comunicação</h4>
-              <img src={megafone} alt="" />
+              <h4>Governança</h4>
+              <img src={goverIcon} alt="" />
               <p>
-                Executar comunicação estratégica entre os hubs, ampliando o
-                alcance, engajamento e o acesso à informação sobre a COP30,
-                pautas e temas .
+                Assegurar uma gestão integrada, eficiente e transparente do projeto, promovendo a coesão entre os GTs, alinhado as diretrizes da comunidade.
               </p>
               <a href="">
                 Saiba mais <img src={seta} alt="" />
               </a>
             </div>{" "}
             <div className="card">
-              <h4>Comunicação</h4>
-              <img src={megafone} alt="" />
+              <h4>Formação</h4>
+              <img src={formacaoIcon} alt="" />
               <p>
-                Executar comunicação estratégica entre os hubs, ampliando o
-                alcance, engajamento e o acesso à informação sobre a COP30,
-                pautas e temas .
+              Oferecer capacitações com especialistas em sustentabilidade e clima, preparando os Shapers para contribuir  assertivamente na COP30.
               </p>
               <a href="">
                 Saiba mais <img src={seta} alt="" />
