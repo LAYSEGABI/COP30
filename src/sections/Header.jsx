@@ -1,24 +1,63 @@
 import "../styles/Header.css";
-import logo from '../assets/logo.svg'; 
+import logo from "../assets/logo.svg";
+import translations from "../lang/translations";
 
-function Header() {
+import brFlag from "../assets/brasil.svg";
+import usFlag from "../assets/eua.svg";
+
+
+function Header({ lang, setLang }) {
+
   return (
     <header className="header">
       <div className="container">
-          <div className="header__logo">
-            <img src={logo} alt="Shapers pelo Clima" />
+        <div className="header__logo">
+          <img src={logo} alt="Shapers pelo Clima" />
+        </div>
+        <nav className="header__nav">
+          <ul>
+            <li className="sobre-nos-header">
+              <a href="#sobre-nos">{translations[lang].sobre}</a>
+            </li>
+            <li>
+              <a href="#comunidade">{translations[lang].comunidade}</a>
+            </li>
+            <li className="cop30">
+              <a href="#cop30">COP 30</a>
+            </li>
+            <li>
+              <a href="#podcast">Podcast</a>
+            </li>
+            <li>
+              <a href="#artigos">{translations[lang].artigos}</a>
+            </li>
+          </ul>
+
+       
+          <div className="langs">
+            <button className="lang-btn" onClick={() => setLang("pt")}>
+              <img src={brFlag} alt="Português" className="flag-icon" />
+              PT-BR
+            </button>
+            <button className="lang-btn" onClick={() => setLang("en")}>
+              <img src={usFlag} alt="English" className="flag-icon" />
+              EN-US
+            </button>
           </div>
-          <nav className="header__nav">
-            <ul>
-              <li className="sobre-nos-header"><a href="#sobre-nos">Sobre nós</a></li>
-              <li><a href="#comunidade">Comunidade</a></li>
-              <li className="cop30"><a href="#cop30">COP 30</a></li>
-              <li><a href="#podcast">Podcast</a></li>
-              <li><a href="#artigos">Artigos</a></li>
-        
-            </ul>
-            <a href="#footer" className="btn-cta">Contate-nos</a>
-          </nav>
+
+          <div className="langs-mobile">
+            <button className="lang-btn" onClick={() => setLang("pt")}>
+              <img src={brFlag} alt="Português" className="flag-icon" />
+            </button>
+            <button className="lang-btn" onClick={() => setLang("en")}>
+              <img src={usFlag} alt="English" className="flag-icon" />
+            </button>
+          </div>
+
+          <a href="#footer" className="btn-cta">
+            {translations[lang].contato}
+          </a>
+        </nav>
       </div>
     </header>
   );

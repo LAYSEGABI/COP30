@@ -10,13 +10,13 @@ import Artigos from '../sections/Artigos.jsx';
 import Footer from '../sections/Footer.jsx';
 
 
-function Home() {
+function Home({ lang, setLang }) {
   return (
     <>
-      <Header />
-      <HeroSection />
+      <Header lang={lang} setLang={setLang}  />
+      <HeroSection lang={lang} />
       <FaixaDivisao />    
-      <SobreNos />
+      <SobreNos lang={lang} />
       <ComunidadeGS />
       <FaixaDivisao />
       <GuiaCOP30 />

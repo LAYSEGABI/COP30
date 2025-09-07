@@ -14,3 +14,13 @@ import "../styles/SobreNos.css";
   navigation={{ clickable: true }}
 
 ></Swiper>
+
+
+ function setLanguage(lang) {
+      document.querySelectorAll("[data-pt]").forEach(el => {
+        el.textContent = el.getAttribute(`data-${lang}`);
+      });
+    }
+
+    // idioma padrão
+    setLanguage("pt");

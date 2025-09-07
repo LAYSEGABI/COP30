@@ -19,7 +19,7 @@ function Podcast() {
                         <img className="capaPodcast" src={ImgPodcast} alt="" />
                         <h4>Episódio 1: A Amazônia em Foco</h4>
                         <p>Reunimos especialistas, ativistas e jovens para discutir os desafios da transição climática.</p>
-                        <a href=""><img src={Headphones}  alt="" />Ouvir agora</a>
+                        <a href="https://open.spotify.com/show/46BZ540yugO8OGgFG4uc4b" target="_blank"><img src={Headphones}  alt="" />Ouvir agora</a>
                     </div>
                 </div>
             </div>

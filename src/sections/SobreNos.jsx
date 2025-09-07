@@ -1,4 +1,5 @@
 import "../styles/SobreNos.css";
+
 import galho from "../assets/galho.png";
 
 import megafone from "../assets/megafone.svg";
@@ -8,35 +9,28 @@ import goverIcon from "../assets/goverIcon.svg";
 import formacaoIcon from "../assets/fomacaoIcon.svg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import translations from "../lang/translations"
 
-import seta from "../assets/seta.svg";
+
 import linkedin from "../assets/linkedin.svg";
 import perfil from "../assets/perfil.png";
 import { Navigation, Pagination } from "swiper/modules";
-import "swiper/css"; // estilos básicos
+import "swiper/css"; 
 import "swiper/css/navigation";
 
-function SobreNos() {
+function SobreNos({ lang }) {
+  
+
+
   return (
     <section id="sobre-nos" className="sobre-nos">
       <div className="container">
         <div className="nosso-proposito">
           <div className="nosso-proposito-conteudo">
-            <h5>Sobre Nós</h5>
-            <h2>Nosso Propósito</h2>
-            <p>
-              O Shapers Pelo Clima é uma mobilização nacional e internacional da
-              Global Shapers Community que conecta juventudes para agir frente à
-              crise climática.
-            </p>
-            <p>
-              Estamos unindo mais de 20 hubs no Brasil e no mundo para construir
-              um futuro justo, sustentável e liderado por jovens.
-            </p>{" "}
-            <p>
-              Estamos unindo mais de 20 hubs no Brasil e no mundo para construir
-              um futuro justo, sustentável e liderado por jovens.
-            </p>
+             <h5>{translations[lang].sobre}</h5>
+        <h2>{translations[lang].sobre_titulo}</h2>
+        <p>{translations[lang].sobre_desc}</p>
+        <p>{translations[lang].sobre_futuro}</p>
           </div>
           <img src={galho} alt="" />
         </div>
@@ -51,39 +45,31 @@ function SobreNos() {
                 alcance, engajamento e o acesso à informação sobre a COP30,
                 pautas e temas .
               </p>
-              <a href="">
-                Saiba mais <img src={seta} alt="" />
-              </a>
+
             </div>
             <div className="card">
               <h4>Infraestrutura</h4>
               <img src={infraIcon} alt="" />
               <p>
-                Garantir os recursos para a realização das atividades, com processos sustentáveis, seguros e eficientes que apoiem a logística do projeto.
+                Realizar levantamentos logísticos e operacionais e coordenar a organização de eventos na COP30 em Belém, garantindo estrutura, acessibilidade e suporte técnico adequados.
               </p>
-              <a href="">
-                Saiba mais <img src={seta} alt="" />
-              </a>
+
             </div>{" "}
             <div className="card">
               <h4>Parcerias</h4>
               <img src={parceriasIcon} alt="" />
               <p>
-                Identificar oportunidades, alianças estratégicas e fortalecer relações institucionais, conectando Shapers com iniciativas, redes e eventos.
+                Responsável por articular colaborações estratégicas, garantir apoios e patrocínios e viabilizar eventos do projeto voltados ao debate sobre a COP30.
               </p>
-              <a href="">
-                Saiba mais <img src={seta} alt="" />
-              </a>
+
             </div>{" "}
             <div className="card">
               <h4>Governança</h4>
               <img src={goverIcon} alt="" />
               <p>
-                Assegurar uma gestão integrada, eficiente e transparente do projeto, promovendo a coesão entre os GTs, alinhado as diretrizes da comunidade.
+                Responsável pelo contato com o Fórum e hubs internacionais, além de liderar os grupos de trabalho e assegurar o bom andamento do projeto.
               </p>
-              <a href="">
-                Saiba mais <img src={seta} alt="" />
-              </a>
+
             </div>{" "}
             <div className="card">
               <h4>Formação</h4>
@@ -91,9 +77,7 @@ function SobreNos() {
               <p>
               Oferecer capacitações com especialistas em sustentabilidade e clima, preparando os Shapers para contribuir  assertivamente na COP30.
               </p>
-              <a href="">
-                Saiba mais <img src={seta} alt="" />
-              </a>
+
             </div>
           </div>
         </div>

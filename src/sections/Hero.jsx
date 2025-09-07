@@ -1,8 +1,8 @@
 import "../styles/Hero.css";
 import backVideo from '../assets/back.mp4';
+import translations from "../lang/translations";
 
-
-function HeroSection() {
+function HeroSection({ lang}) {
   return (
     <section className="hero">
       <video autoPlay muted loop playsInline>
@@ -10,16 +10,14 @@ function HeroSection() {
       </video>
       <div className="container">
         <h1>
-          Juventudes brasileiras <br /> na COP30: o futuro começa agora
+          {translations[lang].hero_juventude_titulo}
         </h1>
         <p>
-          A juventude do Brasil está pronta para transformar o debate climático. <br />
-          Em Belém, na Amazônia, vamos elevar nossas vozes rumo à justiça
-          climática global.
+          {translations[lang].hero_juventude_desc}
         </p>
         <div className="CTAs">
-          <a href="#sobre-nos">Conhecer o Projeto</a>
-          <a href="#cop30">Acessar o Guia COP30</a>
+          <a href="#sobre-nos">{translations[lang].hero_juventude_btn_1}</a>
+          <a href="#cop30">{translations[lang].hero_juventude_btn_2}</a>
         </div>
       </div>
     </section>

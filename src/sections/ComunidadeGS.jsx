@@ -50,16 +50,16 @@ function ComunidadeGS() {
                 </div>
               </div>
             </div>
-            <div class="map-container">
-              <img src={MapaBrasil} alt="Mapa do Brasil" class="map" />
+            <div className="map-container">
+              <img src={MapaBrasil} alt="Mapa do Brasil" className="map" />
 
-              <div class="map-popup">
+              <div className="map-popup">
                 <h3>Hub Belém</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Sit elit nisl
                   tincidunt arcu pharetra.
                 </p>
-                <a href="https://www.instagram.com/globalshapershubbelem/" class="saiba-mais">
+                <a href="https://www.instagram.com/globalshapershubbelem/" className="saiba-mais">
                   Saiba mais
                 </a>
               </div>
