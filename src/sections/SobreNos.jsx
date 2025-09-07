@@ -12,7 +12,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
 
 import linkedin from "../assets/linkedin.svg";
-import perfil from "../assets/perfil.png";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
