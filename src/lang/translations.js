@@ -38,6 +38,8 @@ const translations = {
     sobre_titulo: "Nosso Propósito",
     sobre_desc: "O Shapers Pelo Clima é uma mobilização nacional e internacional da Global Shapers Community que conecta juventudes para agir frente à crise climática.",
     sobre_futuro: "Estamos unindo mais de 20 hubs no Brasil e no mundo para construir um futuro justo, sustentável e liderado por jovens.",
+
+    // Nossa estrutura
     sobre_estrutura: "Nossa Estrutura",
     sobre_comunicacao: "Comunicação",
     sobre_comunicacao_desc: "Executar comunicação estratégica entre os hubs, ampliando o alcance, engajamento e o acesso à informação sobre a COP30, pautas e temas.",
@@ -49,6 +51,11 @@ const translations = {
     sobre_governanca_desc: "Assegurar uma gestão integrada, eficiente e transparente do projeto, promovendo a coesão entre os GTs, alinhado as diretrizes da comunidade.",
     sobre_formacao: "Formação",
     sobre_formacao_desc: "Oferecer capacitações com especialistas em sustentabilidade e clima, preparando os Shapers para contribuir assertivamente na COP30.",
+
+    // Frases
+    frase_1: "Nós somos únicos e diversos",
+    frase_2: "Comprometidos com a mudança",
+    frase_3: "Jovens moldando o futuro",
 
     // Comunidade
     comunidade_titulo: "A Global Shapers",

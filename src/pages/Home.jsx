@@ -17,12 +17,12 @@ function Home({ lang, setLang }) {
       <HeroSection lang={lang} />
       <FaixaDivisao />    
       <SobreNos lang={lang} />
-      <ComunidadeGS />
+      <ComunidadeGS lang={lang}/>
       <FaixaDivisao />
-      <GuiaCOP30 />
-      <Podcast />
-      <Artigos />
-      <Footer />
+      <GuiaCOP30 lang={lang}/>
+      <Podcast lang={lang}/>
+      <Artigos lang={lang}/>
+      <Footer lang={lang}/>
     </>
   )
 }
