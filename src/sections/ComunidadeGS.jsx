@@ -56,11 +56,10 @@ function ComunidadeGS() {
               <div className="map-popup">
                 <h3>Hub Belém</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Sit elit nisl
-                  tincidunt arcu pharetra.
+                  Segundo hub do Norte do Brasil, estabelecido em 2025, com foco em sustentabilidade, impacto social e tecnologia. Inspirado pela Amazônia, conecta inovação local a soluções globais.
                 </p>
                 <a href="https://www.instagram.com/globalshapershubbelem/" className="saiba-mais">
-                  Saiba mais
+                 Conheça as iniciativas do hub.
                 </a>
               </div>
 

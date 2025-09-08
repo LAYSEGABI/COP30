@@ -100,7 +100,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Layse Gabrielly</h4>
-                <p>Desenvolvedora Front-end</p>
+                <p>Dev Front-end</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -190,6 +190,21 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Erick Lucius</h4>
+                <p>Comunicação</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card-equipe">
+                <div className="perfil">
+                  <img className="foto-perfil" src="https://media.licdn.com/dms/image/v2/D4D03AQHOvlS4b63AZA/profile-displayphoto-shrink_200_200/B4DZZETZG2HIAY-/0/1744902657347?e=1759968000&v=beta&t=ojZKdrVqsmc8r9OAk78ollOKebugMu4gyOyqFkrZDx8" alt="" />
+                  <a
+                    href="https://www.linkedin.com/in/thais-cristina-m/"
+                    target="_blank"
+                  >
+                    <img src={linkedin} alt="" />
+                  </a>
+                </div>
+                <h4>Thais Alves</h4>
                 <p>Comunicação</p>
               </div>
             </SwiperSlide>
