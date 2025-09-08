@@ -5,7 +5,9 @@ import "swiper/css"; // estilos básicos
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useState } from "react";
-import ImgProjeto from "../assets/ImgProjeto.png";
+import ImgProjetoPampa from "../assets/pampa.png";
+import ImgProjetoMotyro from "../assets/motyroCapa.png";
+import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
 
 function ComunidadeGS() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,11 +16,10 @@ function ComunidadeGS() {
   const projetos = [
     {
       id: 1,
-      titulo: "Clima Pampa1",
+      titulo: "Clima Pampa",
       subtitulo: "Fortalecimento da agenda climática",
-      local: "Porto Alegre - RS, Brasil",
-      descricao: `🌱 CLIMA À PAMPA  
-O Hub de Porto Alegre atuou em 2024 com foco no fortalecimento da agenda climática local por meio do projeto Clima à Pampa.  
+      local: "Porto Alegre - RS",
+      descricao: `O Hub de Porto Alegre atuou em 2024 com foco no fortalecimento da agenda climática local por meio do projeto Clima à Pampa.  
 
 A principal ação foi a construção de uma Carta-Compromisso voltada às eleições municipais, mobilizando candidaturas ao cargo de vereadora ou vereador em Porto Alegre para que assumissem compromissos com pautas ambientais e de combate às mudanças climáticas.  
 
@@ -26,16 +27,25 @@ A iniciativa buscou enfrentar a falta de conhecimento e de vontade política sob
 
 O projeto contou com 21 assinaturas, envolvendo 10 partidos, e impactou diretamente as eleições municipais, com dois mandatos eleitos comprometidos com a pauta: Natasha (PT) e Grazi Oliveira (PSOL).  
 
-O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática – Núcleo RS.`,
-      img: ImgProjeto,
+O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática | Núcleo RS.`,
+      img: ImgProjetoPampa,
     },
     {
       id: 2,
-      titulo: "Clima Pampa2",
-      subtitulo: "Fortalecimento da agenda climática",
-      local: "Porto Alegre - RS, Brasil",
-      descricao: "Aqui viria o conteúdo detalhado do projeto 2...",
-      img: ImgProjeto,
+      titulo: "Projeto Motyrõ",
+      subtitulo: "Conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental.",
+      local: "São Paulo - SP",
+      descricao: "O projeto Motyrõ, do Global Shapers Hub São Paulo II em parceria com o Instituto Anchieta-Grajaú (IAG) desde 2023, realiza mutirões mensais de plantio para implantar um sistema agroflorestal local, conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental, além de impactar positivamente a comunidade do Grajaú. O IAG atua de forma sistêmica com a comunidade, oferecendo aulas para crianças, cursos para adultos, feiras e mais de 1.000 refeições diárias, além de projetos socioambientais, mas enfrenta desafios devido à ocupação de grande parte de seu terreno por assentamentos precários, o que gerou desmatamento e construções próximas ao leito do rio. Para recuperar essa área verde, o Motyrõ mobiliza voluntários em mutirões para o plantio de árvores frutíferas, legumes como mandioca, feijão, milho e adubo verde. Até dezembro de 2024, foram plantadas 778 árvores e engajados 165 voluntários. O projeto busca suporte financeiro para cobrir os custos dessas ações e garantir sua continuidade.",
+      img: ImgProjetoMotyro,
+    },
+    {
+      id: 3,
+      titulo: "Nossa Horta",
+      subtitulo: "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
+      local: "Rio de janiero - RJ",
+      descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. \n 
+      Atuando como catalisador de impacto, a iniciativa conecta pessoas, territórios e soluções socioambientais. \n Entre 2023 e 2026, já foram implementadas seis hortas em comunidades do Rio e o projeto foi replicado em hubs parceiros de Recife e Manaus. Reconhecido pelo The Climate Reality Project (2023) e pelo Innovation Prize (2024), o projeto segue em expansão com foco atual na digitalização da metodologia de plantio, visando ampliar seu alcance e impacto educativo. \n\n A iniciativa está alinhada ao eixo Protect the Planet do iSHAPE e fortalece práticas regenerativas nos territórios periféricos por meio da agroecologia. As principais ações incluíram: Implantação de 5 hortas em formato keyhole e 5 estufas em comunidades de baixa renda do Rio de Janeiro, beneficiando diretamente 100 famílias com produção de alimentos orgânicos e compostagem de resíduos. \n Fortalecimento do banco de sementes crioulas, com cultivo de espécies como milho, quiabo, berinjela, couve, brócolis e couve-flor, mais resistentes às mudanças climáticas. \n Valorização do uso de plantas medicinais e PANCs, por meio da troca de saberes entre jovens e pessoas idosas. Estímulo ao plantio de árvores frutíferas para geração de renda. Elaboração de um relatório com a metodologia, compartilhado com os 16 hubs brasileiros, dos quais 2 já se comprometeram com a replicação \n Resultados alcançados: \n 1 tonelada de alimentos orgânicos produzidos100 famílias beneficiadas diretamente \n 1 relatório compartilhado com 16 hubs brasileiros \n 2 workshops realizados com Shapers do Brasil e da América Latina`,
+      img: ImgProjetoNossaHorta,
     },
     // pode adicionar mais projetos aqui
   ];
