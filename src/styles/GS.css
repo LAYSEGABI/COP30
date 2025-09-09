@@ -213,6 +213,7 @@
             background-color: #33a517;
             width: fit-content;
             padding: 3px 5px ;
+            font-weight: 400;
             margin: 5px 0;
             border-radius: 5px;
         }

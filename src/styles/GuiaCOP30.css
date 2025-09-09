@@ -21,6 +21,10 @@
         font-weight: 400;
     }
 
+    &> p:first-of-type {
+        margin-bottom: -10px;
+    }
+
     &>.guiaCop-conteudo {
         max-width: 1280px;
         padding: 2rem 6rem;

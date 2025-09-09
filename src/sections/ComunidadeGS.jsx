@@ -4,13 +4,17 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css"; // estilos básicos
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import React, { useState } from "react";
+import translations from "../lang/translations";
+
+
 import ImgProjetoPampa from "../assets/pampa.png";
 import ImgProjetoMotyro from "../assets/motyroCapa.png";
 import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
 import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";
 
-function ComunidadeGS() {
+function ComunidadeGS({ lang }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -52,7 +56,7 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
     {
       id: 3,
       titulo: "Ecotrilhas",
-      subtitulo: "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
+      subtitulo: "Foco em abraçar o letramento socioambiente de jovens em vulnerabilidade social.",
       local: "Florianópolis - SC",
       descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. A ideia inicial visou reunir grupos de interessados e caminhar pelas muitas trilhas, na cidade de Florianópolis, enquanto coletam-se os restos de lixo/resíduos deixados para trás, ao longo das trilhas. \n\n Atualmente, o projeto busca como foco abraçar o letramento socioambiente de jovens em vulnerabilidade social.`,
       img: ImgProjetoEcotrilhas,
@@ -64,29 +68,23 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
     <section id="comunidade" className="global-shapers">
       <div className="container">
         <div className="comunidade-gs">
-          <h5>COMUNIDADE</h5>
-          <h2>A Global Shapers</h2>
+          <h5>{translations[lang].comunidade}</h5>
+          <h2>{translations[lang].comunidade_titulo}</h2>
           <p>
-            Uma comunidade global de jovens que acreditam no poder da ação local
-            para gerar impacto global.{" "}
+            {translations[lang].comunidade_desc}
           </p>
 
           <div className="container-comunidade">
             <div className="conteudo">
-              <h3>Hubs que estão no clima da COP</h3>
+              <h3>{translations[lang].comunidade_hubs}</h3>
               <p>
-                +20 hubs nacionais e internacionais unidos em prol da justiça
-                climática. Na COP30, nossa voz ecoa diretamente da Amazônia para
-                o mundo.
+                {translations[lang].comunidade_info}
               </p>
               <p>
-                Criada em 2011 pelo Fórum Econômico Mundial, a Global Shapers
-                Community reúne mais de 10 mil jovens em mais de 500 hubs
-                espalhados por 150 países.{" "}
+                {translations[lang].comunidade_historia}
               </p>
               <p>
-                É uma rede global de jovens líderes comprometidos com a
-                transformação positiva de suas comunidades e do mundo.
+                {translations[lang].comunidade_rede}
               </p>
               <div className="conteudo-dados">
                 <div>
@@ -95,11 +93,11 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                 </div>
                 <div>
                   <p>150</p>
-                  <p>Países</p>
+                  <p>{translations[lang].comunidade_dados.paises}</p>
                 </div>
                 <div>
                   <p>10mil</p>
-                  <p>Jovens</p>
+                  <p>{translations[lang].comunidade_dados.jovens}</p>
                 </div>
               </div>
             </div>
@@ -123,10 +121,9 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
             </div>
           </div>
 
-          <h2>Projetos da Comunidade</h2>
+          <h2>{translations[lang].comunidade_projetos}</h2>
           <p>
-            Nossos projetos atuam em frentes como justiça climática, equidade
-            racial, segurança alimentar, agroecologia e transição energética.
+           {translations[lang].comunidade_projetos_desc}
           </p>
 
           <div className="container-projetos">

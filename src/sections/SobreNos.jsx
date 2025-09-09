@@ -8,6 +8,9 @@ import parceriasIcon from "../assets/parceriasIcon.svg";
 import goverIcon from "../assets/goverIcon.svg";
 import formacaoIcon from "../assets/fomacaoIcon.svg";
 
+//Fotos
+import Paula from "../assets/equipe/Paula.png"
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
 
@@ -151,7 +154,7 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img className="foto-perfil" src="https://media.licdn.com/dms/image/v2/D4E03AQETOQOBaiH32A/profile-displayphoto-shrink_200_200/B4EZd61CmKH0Ac-/0/1750112415026?e=1759968000&v=beta&t=YV4uDr-DtY0iIGdfh8hpEE7XmRLczhny6sIFPACXyh0" alt="" />
+                  <img className="foto-perfil" src={Paula} alt="" />
                   <a
                     href="https://www.linkedin.com/in/paulansanches/"
                     target="_blank"

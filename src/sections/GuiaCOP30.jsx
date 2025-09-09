@@ -3,41 +3,39 @@ import ImgGuiaCOP from "../assets/ImgGuiaCop.png";
 import ImgPDF from "../assets/imgpdf.png";
 import IconDownload from "../assets/download.svg";
 
+import translations from "../lang/translations";
 
-function GuiaCOP30() {
+
+
+function GuiaCOP30({ lang }) {
   return (
     <section id='cop30' className="GuiaCOP30">
       <h5>COP 30</h5>
-      <h2>COP30: O Clima no Centro da Amazônia</h2>
+      <h2>{translations[lang].cop30_titulo}</h2>
       <p>
-        Se você vai à COP30, preparamos um guia completo com tudo o que você
-        precisa saber sobre <br /> Belém: cultura, transporte, gastronomia,
-        acolhimento, segurança e pontos de interesse.
+        {translations[lang].cop30_desc1}
+      </p>
+      <p>
+        {translations[lang].cop30_desc2}
       </p>
       <div className="guiaCop-conteudo">
         <div className='descricao'>
           <img className='mascoteGuia' src={ImgGuiaCOP} alt="" />
           <p>
-            Se você vai à COP30, preparamos um guia completo com tudo o que você
-            precisa saber sobre Belém: cultura, transporte, gastronomia,
-            acolhimento, segurança e pontos de interesse.
+           {translations[lang].cop30_guia}
           </p>
           <p>
-            O encontro acontecerá em Belém (PA), no coração da Amazônia,
-            conectando lideranças mundiais, cientistas, ativistas e juventudes
-            de todo o planeta para debater soluções reais para o futuro do
-            clima.
+            {translations[lang].cop30_evento}
           </p>
           <p>
-            Como país anfitrião, o Brasil assume um papel de liderança na busca
-            por consensos globais, propondo metas para reduzir as emissões de
-            gases de efeito estufa e proteger nossos biomas.
+            {translations[lang].cop30_brasil}
           </p>
+
         </div>
         <div className="pdf">
             <a href="./public/Guia-de-Belem.pdf" download="Guia-de-Belem.pdf"><img src={ImgPDF} alt="" /></a>
             <a className='baixarGuia' href="./public/Guia-de-Belem.pdf" download="Guia-de-Belem.pdf">
-              <img src={IconDownload} alt="" />Baixe o guia aqui
+              <img src={IconDownload} alt="" />{translations[lang].cop30_btn}
             </a>
         </div>
       </div>
