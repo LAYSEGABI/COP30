@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import ImgProjetoPampa from "../assets/pampa.png";
 import ImgProjetoMotyro from "../assets/motyroCapa.png";
 import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
+import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";
 
 function ComunidadeGS() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +47,15 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
       descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. \n 
       Atuando como catalisador de impacto, a iniciativa conecta pessoas, territórios e soluções socioambientais. \n Entre 2023 e 2026, já foram implementadas seis hortas em comunidades do Rio e o projeto foi replicado em hubs parceiros de Recife e Manaus. Reconhecido pelo The Climate Reality Project (2023) e pelo Innovation Prize (2024), o projeto segue em expansão com foco atual na digitalização da metodologia de plantio, visando ampliar seu alcance e impacto educativo. \n\n A iniciativa está alinhada ao eixo Protect the Planet do iSHAPE e fortalece práticas regenerativas nos territórios periféricos por meio da agroecologia. As principais ações incluíram: Implantação de 5 hortas em formato keyhole e 5 estufas em comunidades de baixa renda do Rio de Janeiro, beneficiando diretamente 100 famílias com produção de alimentos orgânicos e compostagem de resíduos. \n Fortalecimento do banco de sementes crioulas, com cultivo de espécies como milho, quiabo, berinjela, couve, brócolis e couve-flor, mais resistentes às mudanças climáticas. \n Valorização do uso de plantas medicinais e PANCs, por meio da troca de saberes entre jovens e pessoas idosas. Estímulo ao plantio de árvores frutíferas para geração de renda. Elaboração de um relatório com a metodologia, compartilhado com os 16 hubs brasileiros, dos quais 2 já se comprometeram com a replicação \n Resultados alcançados: \n 1 tonelada de alimentos orgânicos produzidos100 famílias beneficiadas diretamente \n 1 relatório compartilhado com 16 hubs brasileiros \n 2 workshops realizados com Shapers do Brasil e da América Latina`,
       img: ImgProjetoNossaHorta,
+    },
+
+    {
+      id: 3,
+      titulo: "Ecotrilhas",
+      subtitulo: "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
+      local: "Florianópolis - SC",
+      descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. A ideia inicial visou reunir grupos de interessados e caminhar pelas muitas trilhas, na cidade de Florianópolis, enquanto coletam-se os restos de lixo/resíduos deixados para trás, ao longo das trilhas. \n\n Atualmente, o projeto busca como foco abraçar o letramento socioambiente de jovens em vulnerabilidade social.`,
+      img: ImgProjetoEcotrilhas,
     },
     // pode adicionar mais projetos aqui
   ];
@@ -148,8 +158,8 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                   >
                     <img src={proj.img} alt={proj.titulo} />
                     <h3>{proj.titulo}</h3>
+                    <p className="local" >{proj.local}</p>
                     <p>{proj.subtitulo}</p>
-                    <p>{proj.local}</p>
                   </div>
                 </SwiperSlide>
               ))}
@@ -165,8 +175,8 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                   >
                     <img src={proj.img} alt={proj.titulo} />
                     <h3>{proj.titulo}</h3>
+                    <p className="local" >{proj.local}</p>
                     <p>{proj.subtitulo}</p>
-                    <p>{proj.local}</p>
                   </div>
                 </SwiperSlide>
               ))}{" "}
@@ -182,8 +192,8 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                   >
                     <img src={proj.img} alt={proj.titulo} />
                     <h3>{proj.titulo}</h3>
+                    <p className="local" >{proj.local}</p>
                     <p>{proj.subtitulo}</p>
-                    <p>{proj.local}</p>
                   </div>
                 </SwiperSlide>
               ))}{" "}
@@ -199,8 +209,8 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                   >
                     <img src={proj.img} alt={proj.titulo} />
                     <h3>{proj.titulo}</h3>
+                    <p className="local" >{proj.local}</p>
                     <p>{proj.subtitulo}</p>
-                    <p>{proj.local}</p>
                   </div>
                 </SwiperSlide>
               ))}{" "}
@@ -216,8 +226,8 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
                   >
                     <img src={proj.img} alt={proj.titulo} />
                     <h3>{proj.titulo}</h3>
+                    <p className="local" >{proj.local}</p>
                     <p>{proj.subtitulo}</p>
-                    <p>{proj.local}</p>
                   </div>
                 </SwiperSlide>
               ))}

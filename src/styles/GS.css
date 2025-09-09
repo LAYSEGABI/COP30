@@ -189,7 +189,6 @@
 
     .card-projeto {
         background: rgba(255, 255, 255, 0);
-        border-radius: 10px;
         color: rgb(254, 255, 254);
         width: 280px;
         text-align: left;
@@ -204,9 +203,18 @@
 
         &>p {
             font-size: .9rem;
-            opacity: .9;
+            opacity: 1;
             font-weight: 300;
             letter-spacing: 1px;
+        }
+
+        &>.local {
+            color: rgb(255, 255, 255);
+            background-color: #33a517;
+            width: fit-content;
+            padding: 3px 5px ;
+            margin: 5px 0;
+            border-radius: 5px;
         }
     }
 }
