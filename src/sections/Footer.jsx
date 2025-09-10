@@ -16,7 +16,6 @@ function Footer() {
             <a href="#comunidade">Comunidade</a>
             <a href="#cop30">COP 30</a>
             <a href="#podcast">Podcast</a>
-            <a href="#artigos">Artigos</a>
             <a href="#sobre-nos">Sobre nós</a>
         </div>
         <div className="redes">

@@ -28,9 +28,9 @@ function Header({ lang, setLang }) {
             <li>
               <a href="#podcast">Podcast</a>
             </li>
-            <li>
+            {/*<li>
               <a href="#artigos">{translations[lang].artigos}</a>
-            </li>
+            </li> */}
           </ul>
 
        
