@@ -126,19 +126,19 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    src="https://media.licdn.com/dms/image/v2/D5603AQE0Z7O7JtZKhw/profile-displayphoto-shrink_400_400/B56ZUC9jzKHQAg-/0/1739511447175?e=1760572800&v=beta&t=NrCu7lhFCEadESG4MYnlFPyeaBswdWWJg7K21YXSS-s"
                     alt=""
                   />
                   <a
-                    href="https://www.linkedin.com/in/messiasnns/"
+                    href="https://www.linkedin.com/in/mackenziekuenz/"
                     target="_blank"
                   >
                     <img src={linkedin} alt="" />
                   </a>
                 </div>
-                <h4>Messias Nunes</h4>
+                <h4>Mackenzie Kuenz</h4>
                 <p>Comunicação</p>
-                <h5>HUB Recife</h5>
+                <h5>HUB Vancouver</h5>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -257,26 +257,7 @@ function SobreNos({ lang }) {
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
-              <div className="card-equipe">
-                <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D5603AQE0Z7O7JtZKhw/profile-displayphoto-shrink_400_400/B56ZUC9jzKHQAg-/0/1739511447175?e=1760572800&v=beta&t=NrCu7lhFCEadESG4MYnlFPyeaBswdWWJg7K21YXSS-s"
-                    alt=""
-                  />
-                  <a
-                    href="https://www.linkedin.com/in/mackenziekuenz/"
-                    target="_blank"
-                  >
-                    <img src={linkedin} alt="" />
-                  </a>
-                </div>
-                <h4>Mackenzie Kuenz</h4>
-                <p>Comunicação</p>
-                <h5>HUB Vancouver</h5>
-              </div>
-            </SwiperSlide>
+
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
@@ -322,6 +303,26 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/messiasnns/"
+                    target="_blank"
+                  >
+                    <img src={linkedin} alt="" />
+                  </a>
+                </div>
+                <h4>Messias Nunes</h4>
+                <p>Comunicação</p>
+                <h5>HUB Recife</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card-equipe">
+                <div className="perfil">
+                  <img
+                    className="foto-perfil"
                     src="https://media.licdn.com/dms/image/v2/D4D03AQFGV17SXxTdqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698764018142?e=1760572800&v=beta&t=hfhxgX-ks7-acunnPEWlbnx8_zF7df-HLfjgzWyB7gI"
                     alt=""
                   />
@@ -360,15 +361,8 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src=""
-                    alt=""
-                  />
-                  <a
-                    href=""
-                    target="_blank"
-                  >
+                  <img className="foto-perfil" src="" alt="" />
+                  <a href="" target="_blank">
                     <img src={linkedin} alt="" />
                   </a>
                 </div>
@@ -417,18 +411,11 @@ function SobreNos({ lang }) {
                 <h5>HUB Florianópolis</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
+            <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src=""
-                    alt=""
-                  />
-                  <a
-                    href=""
-                    target="_blank"
-                  >
+                  <img className="foto-perfil" src="" alt="" />
+                  <a href="" target="_blank">
                     <img src={linkedin} alt="" />
                   </a>
                 </div>
@@ -477,7 +464,7 @@ function SobreNos({ lang }) {
                 <h5>HUB Uberlândia</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
+            <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img
@@ -497,18 +484,11 @@ function SobreNos({ lang }) {
                 <h5>HUB Belo Horizonte</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
+            <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src=""
-                    alt=""
-                  />
-                  <a
-                    href=""
-                    target="_blank"
-                  >
+                  <img className="foto-perfil" src="" alt="" />
+                  <a href="" target="_blank">
                     <img src={linkedin} alt="" />
                   </a>
                 </div>
@@ -597,7 +577,7 @@ function SobreNos({ lang }) {
                 <h5>HUB Osasco</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
+            <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img
