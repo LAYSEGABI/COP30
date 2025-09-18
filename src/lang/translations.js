@@ -255,11 +255,11 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
     frase_3: "Young people shaping the future",
 
     //Equipe
-    equipe_comunicacao: "Communication",
+    equipe_comunicacao: "Communications",
     equipe_infraestrutura: "Infrastructure",
     equipe_parcerias: "Partnerships",
     equipe_governanca: "Governance",
-    equipe_formacao: "Training",
+    equipe_formacao: "Learning & Development",
 
     // Community
     comunidade_titulo: "The Global Shapers",
