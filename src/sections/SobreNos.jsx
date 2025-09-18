@@ -360,7 +360,7 @@ function SobreNos({ lang }) {
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+           {/* <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img className="foto-perfil" src="" alt="" />
@@ -372,7 +372,7 @@ function SobreNos({ lang }) {
                 <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 2</h5>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
@@ -413,7 +413,7 @@ function SobreNos({ lang }) {
                 <h5>HUB Florianópolis</h5>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/*<SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img className="foto-perfil" src="" alt="" />
@@ -425,7 +425,7 @@ function SobreNos({ lang }) {
                 <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 1</h5>
               </div>
-            </SwiperSlide>
+            </SwiperSlide>*/}
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
@@ -486,7 +486,7 @@ function SobreNos({ lang }) {
                 <h5>HUB Belo Horizonte</h5>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/*<SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img className="foto-perfil" src="" alt="" />
@@ -498,7 +498,7 @@ function SobreNos({ lang }) {
                 <p>Parcerias</p>
                 <h5>HUB Campinas</h5>
               </div>
-            </SwiperSlide>
+            </SwiperSlide>*/}
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
