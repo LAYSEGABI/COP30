@@ -100,13 +100,14 @@ const translations = {
       paises: "Países",
       jovens: "Jovens",
     },
-    comunidade_hub_belem: "Segundo hub do Norte do Brasil, estabelecido em 2025, com foco em sustentabilidade, impacto social e tecnologia. Inspirado pela Amazônia, conecta inovação local a soluções globais.",
+    comunidade_hub_belem:
+      "Segundo hub do Norte do Brasil, estabelecido em 2025, com foco em sustentabilidade, impacto social e tecnologia. Inspirado pela Amazônia, conecta inovação local a soluções globais.",
     comunidade_hub_belem_cta: "Conheça as iniciativas do hub.",
     comunidade_projetos: "Projetos da Comunidade",
     comunidade_projetos_desc:
       "Nossos projetos atuam em frentes como justiça climática, equidade racial, segurança alimentar, agroecologia e transição energética.",
 
-      projetos: [
+    projetos: [
       {
         id: 1,
         titulo: "Clima Pampa",
@@ -120,8 +121,8 @@ A iniciativa buscou enfrentar a falta de conhecimento e de vontade política sob
 
 O projeto contou com 21 assinaturas, envolvendo 10 partidos, e impactou diretamente as eleições municipais, com dois mandatos eleitos comprometidos com a pauta: Natasha (PT) e Grazi Oliveira (PSOL).  
 
-O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática | Núcleo RS.`, 
- img: ImgProjetoPampa, 
+O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática | Núcleo RS.`,
+        img: ImgProjetoPampa,
       },
       {
         id: 2,
@@ -130,7 +131,7 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
           "Conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental.",
         local: "São Paulo - SP",
         descricao: `O projeto Motyrõ, do Global Shapers Hub São Paulo II em parceria com o Instituto Anchieta-Grajaú (IAG) desde 2023, realiza mutirões mensais de plantio para implantar um sistema agroflorestal local, conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental, além de impactar positivamente a comunidade do Grajaú. O IAG atua de forma sistêmica com a comunidade, oferecendo aulas para crianças, cursos para adultos, feiras e mais de 1.000 refeições diárias, além de projetos socioambientais, mas enfrenta desafios devido à ocupação de grande parte de seu terreno por assentamentos precários, o que gerou desmatamento e construções próximas ao leito do rio. Para recuperar essa área verde, o Motyrõ mobiliza voluntários em mutirões para o plantio de árvores frutíferas, legumes como mandioca, feijão, milho e adubo verde. Até dezembro de 2024, foram plantadas 778 árvores e engajados 165 voluntários. O projeto busca suporte financeiro para cobrir os custos dessas ações e garantir sua continuidade.`,
-           img: ImgProjetoMotyro,
+        img: ImgProjetoMotyro,
       },
       {
         id: 3,
@@ -140,7 +141,6 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
         local: "Rio de Janeiro - RJ",
         descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. ...`,
         img: ImgProjetoNossaHorta,
-
       },
       {
         id: 4,
@@ -161,11 +161,14 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
       "Aqui falamos de clima, justiça ambiental e soluções reais de forma leve, acessível e transformadora. Cada conversa é uma oportunidade de aproximar saberes científicos, vivências locais e experiências de quem já enfrenta os impactos da crise.",
     podcast_participa_titulo: "Quem participa:",
     podcast_participa_1: "Jovens líderes que estão moldando o futuro",
-    podcast_participa_2: "Comunidades da Amazônia e outros territórios vulneráveis",
-    podcast_participa_3: "Ativistas e pesquisadores comprometidos com a justiça climática",
+    podcast_participa_2:
+      "Comunidades da Amazônia e outros territórios vulneráveis",
+    podcast_participa_3:
+      "Ativistas e pesquisadores comprometidos com a justiça climática",
     podcast_chamada: "Dê o play e faça parte desse diálogo.",
     podcast_ep1: "Episódio nº 01: A Amazônia em Foco", // já existia
-    podcast_ep1_desc: "Neste primeiro episódio, você vai conhecer as nossas hosts, que estarão presentes nos próximos episódios e vão guiar importantes debates sobre o clima, o Brasil e a COP30.", // já existia
+    podcast_ep1_desc:
+      "Neste primeiro episódio, você vai conhecer as nossas hosts, que estarão presentes nos próximos episódios e vão guiar importantes debates sobre o clima, o Brasil e a COP30.", // já existia
     podcast_btn: "Ouvir no Spotify", // já existia
 
     // Rodapé
@@ -202,9 +205,9 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
       "If you are going to COP30, we have prepared a complete guide with everything you need to know about ",
     cop30_desc2:
       "Belém: culture, transportation, gastronomy, hospitality, safety and points of interest.",
-      cop30_guia: 
-  "If you're going to COP30, we've prepared a complete guide with everything you need to know about Belém: culture, transportation, gastronomy, hospitality, security, and points of interest.",
-      cop30_evento:
+    cop30_guia:
+      "If you're going to COP30, we've prepared a complete guide with everything you need to know about Belém: culture, transportation, gastronomy, hospitality, security, and points of interest.",
+    cop30_evento:
       "The meeting will take place in Belém (PA), in the heart of the Amazon, bringing together world leaders, scientists, activists and youth from around the planet to debate real solutions for the future of the climate.",
     cop30_brasil:
       "As the host country, Brazil takes a leadership role in the search for global consensus, proposing targets to reduce greenhouse gas emissions and protect our biomes.",
@@ -246,8 +249,12 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
     sobre_formacao_desc:
       "Offer training with sustainability and climate specialists, preparing Shapers to contribute effectively at COP30.",
 
+    // Frases em inglês
+    frase_1: "We are unique and diverse",
+    frase_2: "Committed to change",
+    frase_3: "Young people shaping the future",
 
-      //Equipe
+    //Equipe
     equipe_comunicacao: "Communication",
     equipe_infraestrutura: "Infrastructure",
     equipe_parcerias: "Partnerships",
@@ -271,13 +278,14 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
       jovens: "Youth",
     },
 
-    comunidade_hub_belem: "The second hub in Northern Brazil, established in 2025, with a focus on sustainability, social impact, and technology. Inspired by the Amazon, it connects local innovation to global solutions.",
+    comunidade_hub_belem:
+      "The second hub in Northern Brazil, established in 2025, with a focus on sustainability, social impact, and technology. Inspired by the Amazon, it connects local innovation to global solutions.",
     comunidade_hub_belem_cta: "Learn about the hub's initiatives.",
     comunidade_projetos: "Community Projects",
     comunidade_projetos_desc:
       "Our projects work on fronts such as climate justice, racial equity, food security, agroecology and energy transition.",
 
-      projetos: [
+    projetos: [
       {
         id: 1,
         titulo: "Clima Pampa",
@@ -291,8 +299,8 @@ The initiative sought to address the lack of knowledge and political will regard
 
 The project gathered 21 signatures from 10 political parties and directly impacted the municipal elections, with two elected mandates committed to the cause: Natasha (PT) and Grazi Oliveira (PSOL).  
 
-The project was carried out in partnership with Youth Action Hub Porto Alegre, Net Impact Porto Alegre and Climate Reality Leaders | RS chapter.`, img: ImgProjetoPampa, 
-
+The project was carried out in partnership with Youth Action Hub Porto Alegre, Net Impact Porto Alegre and Climate Reality Leaders | RS chapter.`,
+        img: ImgProjetoPampa,
       },
       {
         id: 2,
@@ -300,7 +308,8 @@ The project was carried out in partnership with Youth Action Hub Porto Alegre, N
         subtitulo:
           "Connecting vegetation areas and helping restore the Environmental Protection Area.",
         local: "São Paulo - SP",
-        descricao: `The Motyrõ project, led by the Global Shapers Hub São Paulo II in partnership with the Anchieta-Grajaú Institute (IAG) since 2023, organizes monthly planting mutirões to implement a local agroforestry system, connecting vegetation areas and helping restore the Environmental Protection Area, while positively impacting the Grajaú community. ...`,    img: ImgProjetoMotyro,
+        descricao: `The Motyrõ project, led by the Global Shapers Hub São Paulo II in partnership with the Anchieta-Grajaú Institute (IAG) since 2023, organizes monthly planting mutirões to implement a local agroforestry system, connecting vegetation areas and helping restore the Environmental Protection Area, while positively impacting the Grajaú community. ...`,
+        img: ImgProjetoMotyro,
       },
       {
         id: 3,
@@ -331,15 +340,18 @@ The project was carried out in partnership with Youth Action Hub Porto Alegre, N
       "We talk about climate, environmental justice and real solutions in a light, accessible and transformative way. Each conversation is an opportunity to bring together scientific knowledge, local experiences and stories from those already facing the impacts of the crisis.",
     podcast_participa_titulo: "Who takes part:",
     podcast_participa_1: "Young leaders who are shaping the future",
-    podcast_participa_2: "Communities from the Amazon and other vulnerable territories",
-    podcast_participa_3: "Activists and researchers committed to climate justice",
+    podcast_participa_2:
+      "Communities from the Amazon and other vulnerable territories",
+    podcast_participa_3:
+      "Activists and researchers committed to climate justice",
     podcast_chamada: "Hit play and be part of this dialogue.",
     podcast_ep1: "Episode #01: The Amazon in Focus",
-    podcast_ep1_desc: "In this first episode, you will meet our hosts, who will be present in the upcoming episodes and will guide important discussions about the climate, Brazil, and COP30.",
+    podcast_ep1_desc:
+      "In this first episode, you will meet our hosts, who will be present in the upcoming episodes and will guide important discussions about the climate, Brazil, and COP30.",
     podcast_btn: "Listen on Spotify",
 
     // Footer
-     footer_menu: ["Community", "COP 30", "Podcast", "About us"],
+    footer_menu: ["Community", "COP 30", "Podcast", "About us"],
     footer_instagram: "@shaperspeloclima",
     footer_linkedin: "Shapers for Climate",
     footer_spotify: "Climate Dialogue",
