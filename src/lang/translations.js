@@ -1,3 +1,8 @@
+import ImgProjetoPampa from "../assets/pampa.png";
+import ImgProjetoMotyro from "../assets/motyroCapa.png";
+import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
+import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";
+
 // src/i18n/translations.js
 const translations = {
   pt: {
@@ -88,10 +93,58 @@ const translations = {
       paises: "Países",
       jovens: "Jovens",
     },
+    comunidade_hub_belem: "Segundo hub do Norte do Brasil, estabelecido em 2025, com foco em sustentabilidade, impacto social e tecnologia. Inspirado pela Amazônia, conecta inovação local a soluções globais.",
+    comunidade_hub_belem_cta: "Conheça as iniciativas do hub.",
     comunidade_projetos: "Projetos da Comunidade",
     comunidade_projetos_desc:
       "Nossos projetos atuam em frentes como justiça climática, equidade racial, segurança alimentar, agroecologia e transição energética.",
 
+      projetos: [
+      {
+        id: 1,
+        titulo: "Clima Pampa",
+        subtitulo: "Fortalecimento da agenda climática",
+        local: "Porto Alegre - RS",
+        descricao: `O Hub de Porto Alegre atuou em 2024 com foco no fortalecimento da agenda climática local por meio do projeto Clima à Pampa.  
+
+A principal ação foi a construção de uma Carta-Compromisso voltada às eleições municipais, mobilizando candidaturas ao cargo de vereadora ou vereador em Porto Alegre para que assumissem compromissos com pautas ambientais e de combate às mudanças climáticas.  
+
+A iniciativa buscou enfrentar a falta de conhecimento e de vontade política sobre a emergência climática no município, oferecendo como solução o engajamento pré-eleitoral e a capacitação dos mandatos eleitos.  
+
+O projeto contou com 21 assinaturas, envolvendo 10 partidos, e impactou diretamente as eleições municipais, com dois mandatos eleitos comprometidos com a pauta: Natasha (PT) e Grazi Oliveira (PSOL).  
+
+O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática | Núcleo RS.`, 
+ img: ImgProjetoPampa, 
+      },
+      {
+        id: 2,
+        titulo: "Projeto Motyrõ",
+        subtitulo:
+          "Conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental.",
+        local: "São Paulo - SP",
+        descricao: `O projeto Motyrõ, do Global Shapers Hub São Paulo II em parceria com o Instituto Anchieta-Grajaú (IAG) desde 2023, realiza mutirões mensais de plantio para implantar um sistema agroflorestal local, conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental, além de impactar positivamente a comunidade do Grajaú. O IAG atua de forma sistêmica com a comunidade, oferecendo aulas para crianças, cursos para adultos, feiras e mais de 1.000 refeições diárias, além de projetos socioambientais, mas enfrenta desafios devido à ocupação de grande parte de seu terreno por assentamentos precários, o que gerou desmatamento e construções próximas ao leito do rio. Para recuperar essa área verde, o Motyrõ mobiliza voluntários em mutirões para o plantio de árvores frutíferas, legumes como mandioca, feijão, milho e adubo verde. Até dezembro de 2024, foram plantadas 778 árvores e engajados 165 voluntários. O projeto busca suporte financeiro para cobrir os custos dessas ações e garantir sua continuidade.`,
+           img: ImgProjetoMotyro,
+      },
+      {
+        id: 3,
+        titulo: "Nossa Horta",
+        subtitulo:
+          "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
+        local: "Rio de Janeiro - RJ",
+        descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. ...`,
+        img: ImgProjetoNossaHorta,
+
+      },
+      {
+        id: 4,
+        titulo: "Ecotrilhas",
+        subtitulo:
+          "Foco em abraçar o letramento socioambiente de jovens em vulnerabilidade social.",
+        local: "Florianópolis - SC",
+        descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. ...`,
+        img: ImgProjetoEcotrilhas,
+      },
+    ],
     // Podcast
     podcast_titulo: "O que é?",
     podcast_desc1:
@@ -181,7 +234,7 @@ const translations = {
       "Identify opportunities, strategic alliances and strengthen institutional relations, connecting Shapers with initiatives, networks and events.",
     sobre_governanca: "Governance",
     sobre_governanca_desc:
-      "Ensure integrated, efficient and transparent management of the project, promoting cohesion among GTs, aligned with community guidelines.",
+      "Ensure integrated, efficient and transparent management of the project, promoting cohesion among working groups, aligned with community guidelines.",
     sobre_formacao: "Training",
     sobre_formacao_desc:
       "Offer training with sustainability and climate specialists, preparing Shapers to contribute effectively at COP30.",
@@ -202,9 +255,57 @@ const translations = {
       paises: "Countries",
       jovens: "Youth",
     },
+
+    comunidade_hub_belem: "The second hub in Northern Brazil, established in 2025, with a focus on sustainability, social impact, and technology. Inspired by the Amazon, it connects local innovation to global solutions.",
+    comunidade_hub_belem_cta: "Learn about the hub's initiatives.",
     comunidade_projetos: "Community Projects",
     comunidade_projetos_desc:
       "Our projects work on fronts such as climate justice, racial equity, food security, agroecology and energy transition.",
+
+      projetos: [
+      {
+        id: 1,
+        titulo: "Clima Pampa",
+        subtitulo: "Strengthening the climate agenda",
+        local: "Porto Alegre - RS",
+        descricao: `In 2024, the Porto Alegre Hub focused on strengthening the local climate agenda through the “Clima à Pampa” project.  
+
+The main action was to draft a Commitment Letter aimed at municipal elections, mobilizing city council candidates in Porto Alegre to commit to environmental and climate change policies.  
+
+The initiative sought to address the lack of knowledge and political will regarding the climate emergency in the municipality by offering pre-election engagement and training for elected mandates.  
+
+The project gathered 21 signatures from 10 political parties and directly impacted the municipal elections, with two elected mandates committed to the cause: Natasha (PT) and Grazi Oliveira (PSOL).  
+
+The project was carried out in partnership with Youth Action Hub Porto Alegre, Net Impact Porto Alegre and Climate Reality Leaders | RS chapter.`, img: ImgProjetoPampa, 
+
+      },
+      {
+        id: 2,
+        titulo: "Motyrõ Project",
+        subtitulo:
+          "Connecting vegetation areas and helping restore the Environmental Protection Area.",
+        local: "São Paulo - SP",
+        descricao: `The Motyrõ project, led by the Global Shapers Hub São Paulo II in partnership with the Anchieta-Grajaú Institute (IAG) since 2023, organizes monthly planting mutirões to implement a local agroforestry system, connecting vegetation areas and helping restore the Environmental Protection Area, while positively impacting the Grajaú community. ...`,    img: ImgProjetoMotyro,
+      },
+      {
+        id: 3,
+        titulo: "Our Garden",
+        subtitulo:
+          "Promotes food security, income generation and climate education in Rio’s favelas",
+        local: "Rio de Janeiro - RJ",
+        descricao: `The Rio de Janeiro Hub leads this project to promote food security, income generation and climate education in Rio’s favelas through the implementation of community gardens based on ancestral practices such as the keyhole method. ...`,
+        img: ImgProjetoNossaHorta,
+      },
+      {
+        id: 4,
+        titulo: "Ecotrails",
+        subtitulo:
+          "Focused on socio-environmental literacy for vulnerable youth.",
+        local: "Florianópolis - SC",
+        descricao: `Ecotrails started in 2019 with the purpose of combining environmental education, waste collection and moments of fun. ...`,
+        img: ImgProjetoEcotrilhas,
+      },
+    ],
 
     // Podcast
     podcast_titulo: "What is it?",

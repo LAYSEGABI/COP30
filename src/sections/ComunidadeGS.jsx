@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useState } from "react";
 import translations from "../lang/translations";
 
-
 import ImgProjetoPampa from "../assets/pampa.png";
 import ImgProjetoMotyro from "../assets/motyroCapa.png";
 import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
@@ -18,74 +17,24 @@ function ComunidadeGS({ lang }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const projetos = [
-    {
-      id: 1,
-      titulo: "Clima Pampa",
-      subtitulo: "Fortalecimento da agenda climática",
-      local: "Porto Alegre - RS",
-      descricao: `O Hub de Porto Alegre atuou em 2024 com foco no fortalecimento da agenda climática local por meio do projeto Clima à Pampa.  
 
-A principal ação foi a construção de uma Carta-Compromisso voltada às eleições municipais, mobilizando candidaturas ao cargo de vereadora ou vereador em Porto Alegre para que assumissem compromissos com pautas ambientais e de combate às mudanças climáticas.  
-
-A iniciativa buscou enfrentar a falta de conhecimento e de vontade política sobre a emergência climática no município, oferecendo como solução o engajamento pré-eleitoral e a capacitação dos mandatos eleitos.  
-
-O projeto contou com 21 assinaturas, envolvendo 10 partidos, e impactou diretamente as eleições municipais, com dois mandatos eleitos comprometidos com a pauta: Natasha (PT) e Grazi Oliveira (PSOL).  
-
-O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impact Porto Alegre e Líderes da Realidade Climática | Núcleo RS.`,
-      img: ImgProjetoPampa,
-    },
-    {
-      id: 2,
-      titulo: "Projeto Motyrõ",
-      subtitulo: "Conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental.",
-      local: "São Paulo - SP",
-      descricao: "O projeto Motyrõ, do Global Shapers Hub São Paulo II em parceria com o Instituto Anchieta-Grajaú (IAG) desde 2023, realiza mutirões mensais de plantio para implantar um sistema agroflorestal local, conectando áreas de vegetação e auxiliando na recuperação da Área de Proteção Ambiental, além de impactar positivamente a comunidade do Grajaú. O IAG atua de forma sistêmica com a comunidade, oferecendo aulas para crianças, cursos para adultos, feiras e mais de 1.000 refeições diárias, além de projetos socioambientais, mas enfrenta desafios devido à ocupação de grande parte de seu terreno por assentamentos precários, o que gerou desmatamento e construções próximas ao leito do rio. Para recuperar essa área verde, o Motyrõ mobiliza voluntários em mutirões para o plantio de árvores frutíferas, legumes como mandioca, feijão, milho e adubo verde. Até dezembro de 2024, foram plantadas 778 árvores e engajados 165 voluntários. O projeto busca suporte financeiro para cobrir os custos dessas ações e garantir sua continuidade.",
-      img: ImgProjetoMotyro,
-    },
-    {
-      id: 3,
-      titulo: "Nossa Horta",
-      subtitulo: "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
-      local: "Rio de janiero - RJ",
-      descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. \n 
-      Atuando como catalisador de impacto, a iniciativa conecta pessoas, territórios e soluções socioambientais. \n Entre 2023 e 2026, já foram implementadas seis hortas em comunidades do Rio e o projeto foi replicado em hubs parceiros de Recife e Manaus. Reconhecido pelo The Climate Reality Project (2023) e pelo Innovation Prize (2024), o projeto segue em expansão com foco atual na digitalização da metodologia de plantio, visando ampliar seu alcance e impacto educativo. \n\n A iniciativa está alinhada ao eixo Protect the Planet do iSHAPE e fortalece práticas regenerativas nos territórios periféricos por meio da agroecologia. As principais ações incluíram: Implantação de 5 hortas em formato keyhole e 5 estufas em comunidades de baixa renda do Rio de Janeiro, beneficiando diretamente 100 famílias com produção de alimentos orgânicos e compostagem de resíduos. \n Fortalecimento do banco de sementes crioulas, com cultivo de espécies como milho, quiabo, berinjela, couve, brócolis e couve-flor, mais resistentes às mudanças climáticas. \n Valorização do uso de plantas medicinais e PANCs, por meio da troca de saberes entre jovens e pessoas idosas. Estímulo ao plantio de árvores frutíferas para geração de renda. Elaboração de um relatório com a metodologia, compartilhado com os 16 hubs brasileiros, dos quais 2 já se comprometeram com a replicação \n Resultados alcançados: \n 1 tonelada de alimentos orgânicos produzidos100 famílias beneficiadas diretamente \n 1 relatório compartilhado com 16 hubs brasileiros \n 2 workshops realizados com Shapers do Brasil e da América Latina`,
-      img: ImgProjetoNossaHorta,
-    },
-
-    {
-      id: 3,
-      titulo: "Ecotrilhas",
-      subtitulo: "Foco em abraçar o letramento socioambiente de jovens em vulnerabilidade social.",
-      local: "Florianópolis - SC",
-      descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. A ideia inicial visou reunir grupos de interessados e caminhar pelas muitas trilhas, na cidade de Florianópolis, enquanto coletam-se os restos de lixo/resíduos deixados para trás, ao longo das trilhas. \n\n Atualmente, o projeto busca como foco abraçar o letramento socioambiente de jovens em vulnerabilidade social.`,
-      img: ImgProjetoEcotrilhas,
-    },
-    // pode adicionar mais projetos aqui
-  ];
-
+  const projetos = translations[lang].projetos;
+  
+  
   return (
     <section id="comunidade" className="global-shapers">
       <div className="container">
         <div className="comunidade-gs">
           <h5>{translations[lang].comunidade}</h5>
           <h2>{translations[lang].comunidade_titulo}</h2>
-          <p>
-            {translations[lang].comunidade_desc}
-          </p>
+          <p>{translations[lang].comunidade_desc}</p>
 
           <div className="container-comunidade">
             <div className="conteudo">
               <h3>{translations[lang].comunidade_hubs}</h3>
-              <p>
-                {translations[lang].comunidade_info}
-              </p>
-              <p>
-                {translations[lang].comunidade_historia}
-              </p>
-              <p>
-                {translations[lang].comunidade_rede}
-              </p>
+              <p>{translations[lang].comunidade_info}</p>
+              <p>{translations[lang].comunidade_historia}</p>
+              <p>{translations[lang].comunidade_rede}</p>
               <div className="conteudo-dados">
                 <div>
                   <p>500</p>
@@ -106,150 +55,75 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
 
               <div className="map-popup">
                 <h3>Hub Belém</h3>
-                <p>
-                  Segundo hub do Norte do Brasil, estabelecido em 2025, com foco
-                  em sustentabilidade, impacto social e tecnologia. Inspirado
-                  pela Amazônia, conecta inovação local a soluções globais.
-                </p>
+                <p>{translations[lang].comunidade_hub_belem}</p>
                 <a
                   href="https://www.instagram.com/globalshapershubbelem/"
                   className="saiba-mais"
                 >
-                  Conheça as iniciativas do hub.
+                  {translations[lang].comunidade_hub_belem_cta}
                 </a>
               </div>
             </div>
           </div>
 
           <h2>{translations[lang].comunidade_projetos}</h2>
-          <p>
-           {translations[lang].comunidade_projetos_desc}
-          </p>
+          <p>{translations[lang].comunidade_projetos_desc}</p>
 
-          <div className="container-projetos">
-            <Swiper
-              modules={[Navigation, Pagination]}
-              spaceBetween={20}
-              loop={true}
-              slidesPerView={4}
-              navigation={{ clickable: true }}
-              breakpoints={{
-                768: {
-                  slidesPerView: 2,
-                },
-                480: {
-                  slidesPerView: 1,
-                  spaceBetween: 10,
-                },
-              }}
-            >
-              {projetos.map((proj) => (
-                <SwiperSlide key={proj.id}>
-                  <div
-                    className="card-projeto"
-                    onClick={() => {
-                      setSelectedProject(proj);
-                      setIsOpen(true);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={proj.img} alt={proj.titulo} />
-                    <h3>{proj.titulo}</h3>
-                    <p className="local" >{proj.local}</p>
-                    <p>{proj.subtitulo}</p>
-                  </div>
-                </SwiperSlide>
-              ))}
-              {projetos.map((proj) => (
-                <SwiperSlide key={proj.id}>
-                  <div
-                    className="card-projeto"
-                    onClick={() => {
-                      setSelectedProject(proj);
-                      setIsOpen(true);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={proj.img} alt={proj.titulo} />
-                    <h3>{proj.titulo}</h3>
-                    <p className="local" >{proj.local}</p>
-                    <p>{proj.subtitulo}</p>
-                  </div>
-                </SwiperSlide>
-              ))}{" "}
-              {projetos.map((proj) => (
-                <SwiperSlide key={proj.id}>
-                  <div
-                    className="card-projeto"
-                    onClick={() => {
-                      setSelectedProject(proj);
-                      setIsOpen(true);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={proj.img} alt={proj.titulo} />
-                    <h3>{proj.titulo}</h3>
-                    <p className="local" >{proj.local}</p>
-                    <p>{proj.subtitulo}</p>
-                  </div>
-                </SwiperSlide>
-              ))}{" "}
-              {projetos.map((proj) => (
-                <SwiperSlide key={proj.id}>
-                  <div
-                    className="card-projeto"
-                    onClick={() => {
-                      setSelectedProject(proj);
-                      setIsOpen(true);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={proj.img} alt={proj.titulo} />
-                    <h3>{proj.titulo}</h3>
-                    <p className="local" >{proj.local}</p>
-                    <p>{proj.subtitulo}</p>
-                  </div>
-                </SwiperSlide>
-              ))}{" "}
-              {projetos.map((proj) => (
-                <SwiperSlide key={proj.id}>
-                  <div
-                    className="card-projeto"
-                    onClick={() => {
-                      setSelectedProject(proj);
-                      setIsOpen(true);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={proj.img} alt={proj.titulo} />
-                    <h3>{proj.titulo}</h3>
-                    <p className="local" >{proj.local}</p>
-                    <p>{proj.subtitulo}</p>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+         <div className="container-projetos">
+  <Swiper
+    modules={[Navigation, Pagination]}
+    spaceBetween={20}
+    loop={true}
+    slidesPerView={4}
+    navigation={{ clickable: true }}
+    breakpoints={{
+      768: {
+        slidesPerView: 2,
+      },
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+    }}
+  >
+    {projetos.map((proj) => (
+      <SwiperSlide key={proj.id}>
+        <div
+          className="card-projeto"
+          onClick={() => {
+            setSelectedProject(proj);
+            setIsOpen(true);
+          }}
+          style={{ cursor: "pointer" }}
+        >
+          {/* usa a imagem do próprio projeto */}
+          <img src={proj.img} alt={proj.titulo} />
+          <h3>{proj.titulo}</h3>
+          <p className="local">{proj.local}</p>
+          <p>{proj.subtitulo}</p>
+        </div>
+      </SwiperSlide>
+    ))}
+  </Swiper>
 
-            {/* Modal */}
-            {isOpen && selectedProject && (
-              <div className="modal-overlay" onClick={() => setIsOpen(false)}>
-                <div
-                  className="modal-content"
-                  onClick={(e) => e.stopPropagation()} // evita fechar ao clicar dentro
-                >
-                  <button
-                    className="close-btn"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    X
-                  </button>
-                  <h2>{selectedProject.titulo}</h2>
-                  <img src={selectedProject.img} alt={selectedProject.titulo} />
-                  <p>{selectedProject.descricao}</p>
-                </div>
-              </div>
-            )}
-          </div>
+  {/* Modal */}
+  {isOpen && selectedProject && (
+    <div className="modal-overlay" onClick={() => setIsOpen(false)}>
+      <div
+        className="modal-content"
+        onClick={(e) => e.stopPropagation()} // evita fechar ao clicar dentro
+      >
+        <button className="close-btn" onClick={() => setIsOpen(false)}>
+          X
+        </button>
+        <h2>{selectedProject.titulo}</h2>
+        <img src={selectedProject.img} alt={selectedProject.titulo} />
+        <p>{selectedProject.descricao}</p>
+      </div>
+    </div>
+  )}
+</div>
+
         </div>
       </div>
     </section>
