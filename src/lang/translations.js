@@ -327,7 +327,11 @@ The project was carried out in partnership with Youth Action Hub Porto Alegre, N
         subtitulo:
           "Connecting vegetation areas and helping restore the Environmental Protection Area.",
         local: "São Paulo - SP",
-        descricao: `The Motyrõ project, led by the Global Shapers Hub São Paulo II in partnership with the Anchieta-Grajaú Institute (IAG) since 2023, organizes monthly planting mutirões to implement a local agroforestry system, connecting vegetation areas and helping restore the Environmental Protection Area, while positively impacting the Grajaú community. ...`,
+        descricao: `The Motyrõ project, a partnership between the Global Shapers Hub São Paulo II and the Anchieta-Grajaú Institute (IAG) since 2023, holds monthly collective planting drives to implement a local agroforestry system. This system connects vegetation areas and aids in the recovery of the Environmental Protection Area, in addition to positively impacting the Grajaú community.
+
+The IAG works systemically with the community, offering classes for children, courses for adults, local markets, and over 1,000 daily meals, alongside its socio-environmental projects. However, it faces challenges due to the occupation of a large part of its land by precarious settlements, which has led to deforestation and construction near the riverbed.
+
+To recover this green area, Motyrõ mobilizes volunteers in these collective drives to plant fruit trees, vegetables like cassava, beans, and corn, as well as green manure. By December 2024, 778 trees had been planted and 165 volunteers had been engaged. The project is seeking financial support to cover the costs of these actions and ensure its continuity.`,
         img: ImgProjetoMotyro,
       },
       {
