@@ -139,7 +139,26 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
         subtitulo:
           "Promove a segurança alimentar, geração de renda e educação climática em favelas do Rio",
         local: "Rio de Janeiro - RJ",
-        descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. ...`,
+        descricao: `O Hub de Rio de Janeiro é responsável pelo projeto, com o intuito de promover a segurança alimentar, geração de renda e educação climática em favelas do Rio de Janeiro por meio da implementação de hortas comunitárias baseadas em práticas ancestrais, como o método do buraco de fechadura. Atuando como catalisador de impacto, a iniciativa conecta pessoas, territórios e soluções socioambientais.
+Entre 2023 e 2026, já foram implementadas seis hortas em comunidades do Rio e o projeto foi replicado em hubs parceiros de Recife e Manaus. Reconhecido pelo The Climate Reality Project (2023) e pelo Innovation Prize (2024), o projeto segue em expansão com foco atual na digitalização da metodologia de plantio, visando ampliar seu alcance e impacto educativo.
+A iniciativa está alinhada ao eixo Protect the Planet do iSHAPE e fortalece práticas regenerativas nos territórios periféricos por meio da agroecologia.
+s principais ações incluíram:
+Implantação de 5 hortas em formato keyhole e 5 estufas em comunidades de baixa renda do Rio de Janeiro, beneficiando diretamente 100 famílias com produção de alimentos orgânicos e compostagem de resíduos.
+
+Fortalecimento do banco de sementes crioulas, com cultivo de espécies como milho, quiabo, berinjela, couve, brócolis e couve-flor, mais resistentes às mudanças climáticas.
+
+Valorização do uso de plantas medicinais e PANCs, por meio da troca de saberes entre jovens e pessoas idosas.
+
+Estímulo ao plantio de árvores frutíferas para geração de renda.
+
+Elaboração de um relatório com a metodologia, compartilhado com os 16 hubs brasileiros, dos quais 2 já se comprometeram com a replicação.
+
+Resultados alcançados:
+1 tonelada de alimentos orgânicos produzidos
+100 famílias beneficiadas diretamente
+1 relatório compartilhado com 16 hubs brasileiros
+2 workshops realizados com Shapers do Brasil e da América Latina
+`,
         img: ImgProjetoNossaHorta,
       },
       {
@@ -148,7 +167,7 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
         subtitulo:
           "Foco em abraçar o letramento socioambiente de jovens em vulnerabilidade social.",
         local: "Florianópolis - SC",
-        descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. ...`,
+        descricao: `O Ecotrilhas é um projeto que surgiu em 2019 com o propósito de unir educação ambiental, coleta de resíduos e momentos de diversão. A ideia inicial visou reunir grupos de interessados e caminhar pelas muitas trilhas, na cidade de Florianópolis, enquanto coletam-se os restos de lixo/resíduos deixados para trás, ao longo das trilhas. Atualmente, o projeto busca como foco abraçar o letramento socioambiente de jovens em vulnerabilidade social.`,
         img: ImgProjetoEcotrilhas,
       },
     ],
@@ -317,7 +336,33 @@ The project was carried out in partnership with Youth Action Hub Porto Alegre, N
         subtitulo:
           "Promotes food security, income generation and climate education in Rio’s favelas",
         local: "Rio de Janeiro - RJ",
-        descricao: `The Rio de Janeiro Hub leads this project to promote food security, income generation and climate education in Rio’s favelas through the implementation of community gardens based on ancestral practices such as the keyhole method. ...`,
+        descricao: `The Rio de Janeiro Hub is responsible for the project, which aims to promote food security, income generation, and climate education in Rio de Janeiro's favelas through the implementation of community gardens based on ancestral practices, such as the keyhole garden method. Acting as a catalyst for impact, the initiative connects people, territories, and socio-environmental solutions.
+
+Between 2023 and 2026, six gardens have already been implemented in communities in Rio, and the project has been replicated in partner hubs in Recife and Manaus. Recognized by The Climate Reality Project (2023) and the Innovation Prize (2024), the project continues to expand with a current focus on digitizing the planting methodology, aiming to broaden its reach and educational impact.
+
+The initiative is aligned with the iSHAPE "Protect the Planet" pillar and strengthens regenerative practices in peripheral territories through agroecology.
+
+The main actions included:
+
+Implementation of 5 keyhole gardens and 5 greenhouses in low-income communities in Rio de Janeiro, directly benefiting 100 families with organic food production and waste composting.
+
+Strengthening the heirloom seed bank, cultivating species more resistant to climate change such as corn, okra, eggplant, kale, broccoli, and cauliflower.
+
+Promoting the use of medicinal plants and Unconventional Food Plants (UFPs), through the exchange of knowledge between youth and the elderly.
+
+Encouraging the planting of fruit trees for income generation.
+
+Creation of a report with the methodology, shared with the 16 Brazilian hubs, of which 2 have already committed to replicating it.
+
+Results achieved:
+
+1 ton of organic food produced
+
+100 families directly benefited
+
+1 report shared with 16 Brazilian hubs
+
+2 workshops held with Shapers from Brazil and Latin America`,
         img: ImgProjetoNossaHorta,
       },
       {
@@ -326,7 +371,7 @@ The project was carried out in partnership with Youth Action Hub Porto Alegre, N
         subtitulo:
           "Focused on socio-environmental literacy for vulnerable youth.",
         local: "Florianópolis - SC",
-        descricao: `Ecotrails started in 2019 with the purpose of combining environmental education, waste collection and moments of fun. ...`,
+        descricao: `Ecotrilhas is a project that emerged in 2019 with the purpose of combining environmental education, waste collection, and moments of fun. The initial idea was to gather groups of interested people to walk the many trails in the city of Florianópolis while collecting the trash/waste left behind along the way. Currently, the project's focus is to embrace the socio-environmental literacy of socially vulnerable youth.`,
         img: ImgProjetoEcotrilhas,
       },
     ],
