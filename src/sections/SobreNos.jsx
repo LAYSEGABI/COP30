@@ -10,6 +10,7 @@ import formacaoIcon from "../assets/fomacaoIcon.svg";
 
 //Fotos
 import Paula from "../assets/equipe/Paula.png";
+import Messias from "../assets/equipe/messias.jpeg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -303,7 +304,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    src={Messias}
                     alt=""
                   />
                   <a
