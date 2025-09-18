@@ -78,6 +78,13 @@ const translations = {
     frase_2: "Comprometidos com a mudança",
     frase_3: "Jovens moldando o futuro",
 
+    //Equipe
+    equipe_comunicacao: "Comunicação",
+    equipe_infraestrutura: "Infraestrutura",
+    equipe_parcerias: "Parcerias",
+    equipe_governanca: "Governança",
+    equipe_formacao: "Formação",
+
     // Comunidade
     comunidade_titulo: "A Global Shapers",
     comunidade_desc:
@@ -238,6 +245,14 @@ O projeto foi realizado em parceria com Youth Action Hub Porto Alegre, Net Impac
     sobre_formacao: "Training",
     sobre_formacao_desc:
       "Offer training with sustainability and climate specialists, preparing Shapers to contribute effectively at COP30.",
+
+
+      //Equipe
+    equipe_comunicacao: "Communication",
+    equipe_infraestrutura: "Infrastructure",
+    equipe_parcerias: "Partnerships",
+    equipe_governanca: "Governance",
+    equipe_formacao: "Training",
 
     // Community
     comunidade_titulo: "The Global Shapers",

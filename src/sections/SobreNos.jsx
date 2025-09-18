@@ -11,6 +11,7 @@ import formacaoIcon from "../assets/fomacaoIcon.svg";
 //Fotos
 import Paula from "../assets/equipe/Paula.png";
 import Messias from "../assets/equipe/messias.jpeg";
+import Mackenzie from "../assets/equipe/Mackenzie.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -98,7 +99,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Laura Galvão</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
@@ -118,7 +119,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Layse Gabrielly</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Florianopolis</h5>
               </div>
             </SwiperSlide>
@@ -127,7 +128,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D5603AQE0Z7O7JtZKhw/profile-displayphoto-shrink_400_400/B56ZUC9jzKHQAg-/0/1739511447175?e=1760572800&v=beta&t=NrCu7lhFCEadESG4MYnlFPyeaBswdWWJg7K21YXSS-s"
+                    src={Mackenzie}
                     alt=""
                   />
                   <a
@@ -138,7 +139,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Mackenzie Kuenz</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Vancouver</h5>
               </div>
             </SwiperSlide>
@@ -158,7 +159,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Débora Mori</h4>
-                <p>Infraestrutura</p>
+                <p>{translations[lang].equipe_infraestrutura}</p>
                 <h5>HUB Curitiba</h5>
               </div>
             </SwiperSlide>
@@ -178,7 +179,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Giovanni Ramos</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Ribeirão P.</h5>
               </div>
             </SwiperSlide>
@@ -194,7 +195,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Paula Sanches</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Ribeirão P.</h5>
               </div>
             </SwiperSlide>
@@ -214,7 +215,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Bianca Silva</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Fortaleza</h5>
               </div>
             </SwiperSlide>
@@ -234,7 +235,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Erick Lucius</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Uberlândia</h5>
               </div>
             </SwiperSlide>
@@ -254,7 +255,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Thais Alves</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
@@ -275,7 +276,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Ana Elaine</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Fortaleza</h5>
               </div>
             </SwiperSlide>
@@ -295,7 +296,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Camila Costa</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Uberlândia</h5>
               </div>
             </SwiperSlide>
@@ -315,7 +316,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Messias Nunes</h4>
-                <p>Comunicação</p>
+                <p>{translations[lang].equipe_comunicacao}</p>
                 <h5>HUB Recife</h5>
               </div>
             </SwiperSlide>
@@ -335,7 +336,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Rafis Martins</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 1</h5>
               </div>
             </SwiperSlide>
@@ -355,7 +356,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Suellen Kristal</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
@@ -368,7 +369,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Leticia Pereira</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
@@ -388,7 +389,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Gabryella Cerri</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Ribeirão P.</h5>
               </div>
             </SwiperSlide>
@@ -408,7 +409,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Luiz Serigheli</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Florianópolis</h5>
               </div>
             </SwiperSlide>
@@ -421,7 +422,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Beatriz Brito</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB São Paulo 1</h5>
               </div>
             </SwiperSlide>
@@ -534,7 +535,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Aída Lins</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Manaus</h5>
               </div>
             </SwiperSlide>
@@ -554,7 +555,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Ruan Roberto</h4>
-                <p>Formações</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Manaus</h5>
               </div>
             </SwiperSlide>
