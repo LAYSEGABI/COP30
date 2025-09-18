@@ -93,17 +93,27 @@ const translations = {
       "Nossos projetos atuam em frentes como justiça climática, equidade racial, segurança alimentar, agroecologia e transição energética.",
 
     // Podcast
-    podcast_titulo: "Clima de Diálogo",
-    podcast_desc:
-      "Nosso podcast é um espaço de diálogo e escuta ativa sobre clima, justiça ambiental e soluções sustentáveis.",
-    podcast_texto:
-      "Com linguagem leve e acessível, reunimos especialistas, ativistas e jovens para discutir os desafios e caminhos da transição climática.",
-    podcast_ep1: "Episódio 1: A Amazônia em Foco",
-    podcast_ep1_desc: "Reunimos especialistas, ativistas e jovens para discutir os desafios da transição climática.",
-    podcast_btn: "Ouvir agora",
+    podcast_titulo: "O que é?",
+    podcast_desc1:
+      "Nosso podcast é um espaço aberto para vozes que importam: jovens, especialistas, ativistas e comunidades que vivem na linha de frente da crise climática.",
+    podcast_subtitulo: "O que discutimos?",
+    podcast_desc2:
+      "Aqui falamos de clima, justiça ambiental e soluções reais de forma leve, acessível e transformadora. Cada conversa é uma oportunidade de aproximar saberes científicos, vivências locais e experiências de quem já enfrenta os impactos da crise.",
+    podcast_participa_titulo: "Quem participa:",
+    podcast_participa_1: "Jovens líderes que estão moldando o futuro",
+    podcast_participa_2: "Comunidades da Amazônia e outros territórios vulneráveis",
+    podcast_participa_3: "Ativistas e pesquisadores comprometidos com a justiça climática",
+    podcast_chamada: "Dê o play e faça parte desse diálogo.",
+    podcast_ep1: "Episódio nº 01: A Amazônia em Foco", // já existia
+    podcast_ep1_desc: "Neste primeiro episódio, você vai conhecer as nossas hosts, que estarão presentes nos próximos episódios e vão guiar importantes debates sobre o clima, o Brasil e a COP30.", // já existia
+    podcast_btn: "Ouvir no Spotify", // já existia
 
     // Rodapé
-    footer_menu: ["Comunidade", "COP 30", "Podcast", "Artigos", "Sobre nós"],
+    footer_menu: ["Comunidade", "COP 30", "Podcast", "Sobre nós"],
+    footer_instagram: "@shaperspeloclima",
+    footer_linkedin: "Shapers pelo Clima",
+    footer_spotify: "Clima de Diálogo",
+    footer_youtube: "Shapers pelo Clima",
     footer_email: "cop30@globalshapers.com.br",
     footer_direitos:
       "Global Shapers é uma iniciativa do Fórum Econômico Mundial ©2025 Shapers Pelo Clima",
@@ -197,20 +207,30 @@ const translations = {
       "Our projects work on fronts such as climate justice, racial equity, food security, agroecology and energy transition.",
 
     // Podcast
-    podcast_titulo: "Climate Dialogue",
-    podcast_desc:
-      "Our podcast is a space for dialogue and active listening on climate, environmental justice and sustainable solutions.",
-    podcast_texto:
-      "With a light and accessible language, we bring together specialists, activists and young people to discuss the challenges and paths of the climate transition.",
-    podcast_ep1: "Episode 1: The Amazon in Focus",
-    podcast_ep1_desc: "We brought together experts, activists, and young people to discuss the challenges of the climate transition.",
-    podcast_btn: "Listen now",
+    podcast_titulo: "What is it?",
+    podcast_desc1:
+      "Our podcast is an open space for voices that matter: young people, experts, activists and communities on the frontlines of the climate crisis.",
+    podcast_subtitulo: "What do we discuss?",
+    podcast_desc2:
+      "We talk about climate, environmental justice and real solutions in a light, accessible and transformative way. Each conversation is an opportunity to bring together scientific knowledge, local experiences and stories from those already facing the impacts of the crisis.",
+    podcast_participa_titulo: "Who takes part:",
+    podcast_participa_1: "Young leaders who are shaping the future",
+    podcast_participa_2: "Communities from the Amazon and other vulnerable territories",
+    podcast_participa_3: "Activists and researchers committed to climate justice",
+    podcast_chamada: "Hit play and be part of this dialogue.",
+    podcast_ep1: "Episode #01: The Amazon in Focus",
+    podcast_ep1_desc: "In this first episode, you will meet our hosts, who will be present in the upcoming episodes and will guide important discussions about the climate, Brazil, and COP30.",
+    podcast_btn: "Listen on Spotify",
 
     // Footer
-    footer_menu: ["Community", "COP 30", "Podcast", "Articles", "About us"],
+     footer_menu: ["Community", "COP 30", "Podcast", "About us"],
+    footer_instagram: "@shaperspeloclima",
+    footer_linkedin: "Shapers for Climate",
+    footer_spotify: "Climate Dialogue",
+    footer_youtube: "Shapers for Climate",
     footer_email: "cop30@globalshapers.com.br",
     footer_direitos:
-      "Global Shapers is an initiative of the World Economic Forum ©2025 Shapers Pelo Clima",
+      "Global Shapers is an initiative of the World Economic Forum ©2025 Shapers for Climate",
   },
 };
 
