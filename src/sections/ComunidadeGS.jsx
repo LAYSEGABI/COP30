@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useState } from "react";
 import translations from "../lang/translations";
 
-import ImgProjetoPampa from "../assets/pampa.png";
+import ImgProjetoPampa from "../assets/pampa.jpeg";
 import ImgProjetoMotyro from "../assets/motyroCapa.png";
 import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
 import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";

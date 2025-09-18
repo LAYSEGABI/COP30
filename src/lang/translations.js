@@ -1,4 +1,4 @@
-import ImgProjetoPampa from "../assets/pampa.png";
+import ImgProjetoPampa from "../assets/pampa.jpeg";
 import ImgProjetoMotyro from "../assets/motyroCapa.png";
 import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
 import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";
