@@ -280,6 +280,13 @@
 
 
 @media (max-width: 900px) {
+
+    .grid-mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
     .global-shapers {
         &>.container {
             padding: 1rem;
@@ -316,7 +323,10 @@
                         }
                     }
 
-                   
+                    &>img {
+                        width: 100%;
+                        padding: 1rem 0;
+                    }
                 }
             }
 
@@ -385,5 +395,35 @@
 
         }
 
+    }
+}
+
+@media (max-width: 480px) {
+.swiper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+    .swiper-wrapper {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        /* espaçamento entre os cards */
+    }
+
+    /* Cada slide ocupa 100% da largura */
+    .swiper-slide {
+        width: 100% !important;
+        flex-shrink: 0;
+        margin: 0 !important; 
+    }
+
+    /* Esconde os controles de navegação no mobile */
+    .swiper-button-prev,
+    .swiper-button-next,
+    .swiper-pagination {
+        display: none !important;
     }
 }
