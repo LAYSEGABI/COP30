@@ -2,8 +2,9 @@ import "../styles/Header.css";
 import logo from "../assets/logo.svg";
 import translations from "../lang/translations";
 
-import brFlag from "../assets/brasil.svg";
-import usFlag from "../assets/eua.svg";
+import brFlag from "../assets/bandeiras/brasil.png";
+import usFlag from "../assets/bandeiras/eua.png";
+import esFlag from "../assets/bandeiras/espanha.png";
 
 
 function Header({ lang, setLang }) {
@@ -37,11 +38,15 @@ function Header({ lang, setLang }) {
           <div className="langs">
             <button className="lang-btn" onClick={() => setLang("pt")}>
               <img src={brFlag} alt="Português" className="flag-icon" />
-              PT-BR
+       
             </button>
             <button className="lang-btn" onClick={() => setLang("en")}>
               <img src={usFlag} alt="English" className="flag-icon" />
-              EN-US
+        
+            </button>
+            <button className="lang-btn" onClick={() => setLang("es")}>
+              <img src={esFlag} alt="Español" className="flag-icon" />
+        
             </button>
           </div>
 
@@ -51,6 +56,9 @@ function Header({ lang, setLang }) {
             </button>
             <button className="lang-btn" onClick={() => setLang("en")}>
               <img src={usFlag} alt="English" className="flag-icon" />
+            </button>
+            <button className="lang-btn" onClick={() => setLang("es")}>
+              <img src={esFlag} alt="Español" className="flag-icon" />
             </button>
           </div>
 

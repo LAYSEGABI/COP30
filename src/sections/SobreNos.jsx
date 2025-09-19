@@ -12,6 +12,7 @@ import formacaoIcon from "../assets/fomacaoIcon.svg";
 import Paula from "../assets/equipe/Paula.png";
 import Messias from "../assets/equipe/messias.jpeg";
 import Mackenzie from "../assets/equipe/Mackenzie.png";
+import Laura from "../assets/equipe/Laura.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -88,7 +89,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4E03AQHWTMpvEXRtHg/profile-displayphoto-shrink_200_200/B4EZcYMS52HYAg-/0/1748457567350?e=1759968000&v=beta&t=yipEEERklE-MDD7IP7QF4Mc7qclDjrAqB2HtXTuP_8o"
+                    src={Laura}
                     alt=""
                   />
                   <a

@@ -212,8 +212,8 @@ Resultados alcançados:
 
     // Hero
     hero_juventude_titulo: "Brazilian youth at COP30: the future starts now",
-    hero_juventude_desc1: `Brazil's youth is ready to transform the climate debate.`,
-    hero_juventude_desc2: `In Belém, in the Amazon, we will raise our voices for global climate justice.`,
+    hero_juventude_desc: `Brazil's youth is ready to transform the climate debate. In Belém, in the Amazon, we will raise our voices towards global climate justice.`,
+    
 
     hero_juventude_btn_1: "Learn about the Project",
     hero_juventude_btn_2: "Access the COP30 Guide",
@@ -408,6 +408,216 @@ Results achieved:
     footer_email: "cop30@globalshapers.com.br",
     footer_direitos:
       "Global Shapers is an initiative of the World Economic Forum ©2025 Shapers for Climate",
+  },
+
+  es: {
+    // Menú
+    sobre: "Sobre nosotros",
+    comunidade: "Comunidad",
+    cop30: "COP 30",
+    podcast: "Podcast",
+    artigos: "Artículos",
+    contato: "Contáctanos",
+
+    // Hero
+    hero_juventude_titulo:
+      "Juventudes brasileñas en la COP30: el futuro comienza ahora",
+    hero_juventude_desc:
+      "La juventud de Brasil está lista para transformar el debate climático. En Belém, en la Amazonía, elevaremos nuestras voces hacia la justicia climática global.",
+    hero_juventude_btn_1: "Conocer el Proyecto",
+    hero_juventude_btn_2: "Acceder a la Guía COP30",
+
+    // Página COP30
+    cop30_titulo: "COP30: El Clima en el Corazón de la Amazonía",
+    cop30_desc1:
+      "Si vas a la COP30, hemos preparado una guía completa con todo lo que necesitas saber sobre ",
+    cop30_desc2:
+      "Belém: cultura, transporte, gastronomía, hospitalidad, seguridad y puntos de interés.",
+    cop30_evento:
+      "El encuentro se realizará en Belém (PA), en el corazón de la Amazonía, reuniendo a líderes mundiales, científicos, activistas y juventudes de todo el planeta para debatir soluciones reales para el futuro del clima.",
+    cop30_brasil:
+      "Como país anfitrión, Brasil asume un papel de liderazgo en la búsqueda de consensos globales, proponiendo metas para reducir las emisiones de gases de efecto invernadero y proteger nuestros biomas.",
+    cop30_btn: "Descarga la guía aquí",
+
+    // Artículos
+    artigos_titulo: "Últimas Publicaciones",
+    artigos_post:
+      "Marcele Oliveira participa en la cumbre de los Global Shapers",
+    artigos_medium: "Artículo en Medium",
+    artigos_data: "15 de julio de 2025",
+    artigos_tempo: "5 min de lectura",
+    artigos_btn: "Ver más",
+
+    artigos_juventude_titulo:
+      "Juventudes brasileñas en la COP30: el futuro comienza ahora",
+    artigos_juventude_desc:
+      "La juventud de Brasil está lista para transformar el debate climático. En Belém, en la Amazonía, elevaremos nuestras voces hacia la justicia climática global.",
+    artigos_btn_guia: "Acceder a la Guía COP30",
+
+    // Sobre nosotros
+    sobre_titulo: "Nuestro Propósito",
+    sobre_desc:
+      "Shapers Pelo Clima es una movilización nacional e internacional de la Global Shapers Community que conecta a juventudes para actuar frente a la crisis climática.",
+    sobre_futuro:
+      "Estamos uniendo a más de 20 hubs en Brasil y en el mundo para construir un futuro justo, sostenible y liderado por jóvenes.",
+
+    // Nuestra estructura
+    sobre_estrutura: "Nuestra Estructura",
+    sobre_comunicacao: "Comunicación",
+    sobre_comunicacao_desc:
+      "Ejecutar comunicación estratégica entre los hubs, ampliando el alcance, el compromiso y el acceso a la información sobre la COP30, agendas y temas.",
+    sobre_infra: "Infraestructura",
+    sobre_infra_desc:
+      "Garantizar los recursos para la realización de actividades, con procesos sostenibles, seguros y eficientes que apoyen la logística del proyecto.",
+    sobre_parcerias: "Alianzas",
+    sobre_parcerias_desc:
+      "Identificar oportunidades, alianzas estratégicas y fortalecer relaciones institucionales, conectando a los Shapers con iniciativas, redes y eventos.",
+    sobre_governanca: "Gobernanza",
+    sobre_governanca_desc:
+      "Asegurar una gestión integrada, eficiente y transparente del proyecto, promoviendo la cohesión entre los grupos de trabajo, alineado a las directrices de la comunidad.",
+    sobre_formacao: "Formación",
+    sobre_formacao_desc:
+      "Ofrecer capacitaciones con especialistas en sostenibilidad y clima, preparando a los Shapers para contribuir de manera efectiva en la COP30.",
+
+    // Frases
+    frase_1: "Somos únicos y diversos",
+    frase_2: "Comprometidos con el cambio",
+    frase_3: "Jóvenes moldeando el futuro",
+
+    //Equipo
+    equipe_comunicacao: "Comunicación",
+    equipe_infraestrutura: "Infraestructura",
+    equipe_parcerias: "Alianzas",
+    equipe_governanca: "Gobernanza",
+    equipe_formacao: "Formación",
+
+    // Comunidad
+    comunidade_titulo: "La Global Shapers",
+    comunidade_desc:
+      "Una comunidad global de jóvenes que creen en el poder de la acción local para generar impacto global.",
+    comunidade_hubs: "Hubs en el clima de la COP",
+    comunidade_info:
+      "+20 hubs nacionales e internacionales unidos en favor de la justicia climática. En la COP30, nuestra voz resuena directamente desde la Amazonía al mundo.",
+    comunidade_historia:
+      "Creada en 2011 por el Foro Económico Mundial, la Global Shapers Community reúne a más de 10.000 jóvenes en más de 500 hubs distribuidos en 150 países.",
+    comunidade_rede:
+      "Es una red global de jóvenes líderes comprometidos con la transformación positiva de sus comunidades y del mundo.",
+    comunidade_dados: {
+      paises: "Países",
+      jovens: "Jóvenes",
+    },
+    comunidade_hub_belem:
+      "Segundo hub del Norte de Brasil, establecido en 2025, con enfoque en sostenibilidad, impacto social y tecnología. Inspirado por la Amazonía, conecta innovación local con soluciones globales.",
+    comunidade_hub_belem_cta: "Conoce las iniciativas del hub.",
+    comunidade_projetos: "Proyectos de la Comunidad",
+    comunidade_projetos_desc:
+      "Nuestros proyectos actúan en frentes como justicia climática, equidad racial, seguridad alimentaria, agroecología y transición energética.",
+
+    projetos: [
+      {
+        id: 1,
+        titulo: "Clima Pampa",
+        subtitulo: "Fortalecimiento de la agenda climática",
+        local: "Porto Alegre - RS",
+        descricao: `El Hub de Porto Alegre actuó en 2024 con enfoque en el fortalecimiento de la agenda climática local por medio del proyecto “Clima à Pampa”.
+
+La acción principal fue la construcción de una Carta-Compromiso dirigida a las elecciones municipales, movilizando candidaturas al cargo de concejal en Porto Alegre para que asumieran compromisos con temas ambientales y de combate al cambio climático.
+
+La iniciativa buscó enfrentar la falta de conocimiento y de voluntad política sobre la emergencia climática en el municipio, ofreciendo como solución el compromiso previo a las elecciones y la capacitación de los mandatos electos.
+
+El proyecto contó con 21 firmas, involucrando a 10 partidos, e impactó directamente las elecciones municipales, con dos mandatos electos comprometidos con la causa: Natasha (PT) y Grazi Oliveira (PSOL).
+
+El proyecto se realizó en asociación con Youth Action Hub Porto Alegre, Net Impact Porto Alegre y Líderes de la Realidad Climática | Núcleo RS.`,
+        img: ImgProjetoPampa,
+      },
+      {
+        id: 2,
+        titulo: "Proyecto Motyrõ",
+        subtitulo:
+          "Conectando áreas de vegetación y ayudando en la recuperación del Área de Protección Ambiental.",
+        local: "São Paulo - SP",
+        descricao: `El proyecto Motyrõ, del Global Shapers Hub São Paulo II en colaboración con el Instituto Anchieta-Grajaú (IAG) desde 2023, realiza mutirones mensuales de plantación para implantar un sistema agroforestal local, conectando áreas de vegetación y ayudando en la recuperación del Área de Protección Ambiental, además de impactar positivamente a la comunidad de Grajaú. 
+
+El IAG actúa de forma sistémica con la comunidad, ofreciendo clases para niños, cursos para adultos, ferias y más de 1.000 comidas diarias, además de proyectos socioambientales, pero enfrenta desafíos debido a la ocupación de gran parte de su terreno por asentamientos precarios, lo que generó deforestación y construcciones cerca del cauce del río.
+
+Para recuperar esta área verde, Motyrõ moviliza voluntarios en mutirones para plantar árboles frutales, legumbres como mandioca, frijoles, maíz y abono verde. Hasta diciembre de 2024, se habían plantado 778 árboles y se habían involucrado 165 voluntarios. El proyecto busca apoyo financiero para cubrir los costos de estas acciones y garantizar su continuidad.`,
+        img: ImgProjetoMotyro,
+      },
+      {
+        id: 3,
+        titulo: "Nuestra Huerta",
+        subtitulo:
+          "Promueve la seguridad alimentaria, generación de ingresos y educación climática en favelas de Río",
+        local: "Río de Janeiro - RJ",
+        descricao: `El Hub de Río de Janeiro es responsable del proyecto, con el objetivo de promover la seguridad alimentaria, generación de ingresos y educación climática en favelas de Río de Janeiro mediante la implementación de huertas comunitarias basadas en prácticas ancestrales, como el método del “keyhole garden”. Actuando como catalizador de impacto, la iniciativa conecta personas, territorios y soluciones socioambientales.
+
+Entre 2023 y 2026, ya se han implementado seis huertas en comunidades de Río y el proyecto fue replicado en hubs socios de Recife y Manaos. Reconocido por The Climate Reality Project (2023) y por el Innovation Prize (2024), el proyecto sigue en expansión con un enfoque actual en la digitalización de la metodología de plantío, buscando ampliar su alcance e impacto educativo.
+
+La iniciativa está alineada al eje “Protect the Planet” del iSHAPE y fortalece prácticas regenerativas en territorios periféricos por medio de la agroecología.
+
+Principales acciones incluyeron:
+
+Implementación de 5 huertas en formato keyhole y 5 invernaderos en comunidades de bajos ingresos de Río de Janeiro, beneficiando directamente a 100 familias con producción de alimentos orgánicos y compostaje de residuos.
+
+Fortalecimiento del banco de semillas criollas, con cultivo de especies como maíz, quimbombó, berenjena, col rizada, brócoli y coliflor, más resistentes al cambio climático.
+
+Valorización del uso de plantas medicinales y PANCs, por medio del intercambio de saberes entre jóvenes y personas mayores.
+
+Estímulo al plantío de árboles frutales para generación de ingresos.
+
+Elaboración de un informe con la metodología, compartido con los 16 hubs brasileños, de los cuales 2 ya se comprometieron con la replicación.
+
+Resultados alcanzados:
+
+1 tonelada de alimentos orgánicos producidos
+
+100 familias beneficiadas directamente
+
+1 informe compartido con 16 hubs brasileños
+
+2 talleres realizados con Shapers de Brasil y América Latina
+`,
+        img: ImgProjetoNossaHorta,
+      },
+      {
+        id: 4,
+        titulo: "Ecotrilhas",
+        subtitulo:
+          "Enfoque en abrazar la alfabetización socioambiental de jóvenes en vulnerabilidad social.",
+        local: "Florianópolis - SC",
+        descricao: `Ecotrilhas es un proyecto que surgió en 2019 con el propósito de unir educación ambiental, recolección de residuos y momentos de diversión. La idea inicial fue reunir grupos de interesados y caminar por los muchos senderos de la ciudad de Florianópolis mientras se recoge la basura/residuos dejados atrás a lo largo del camino. Actualmente, el proyecto busca como enfoque abrazar la alfabetización socioambiental de jóvenes en vulnerabilidad social.`,
+        img: ImgProjetoEcotrilhas,
+      },
+    ],
+
+    // Podcast
+    podcast_titulo: "¿Qué es?",
+    podcast_desc1:
+      "Nuestro podcast es un espacio abierto para voces que importan: jóvenes, especialistas, activistas y comunidades en la primera línea de la crisis climática.",
+    podcast_subtitulo: "¿Qué discutimos?",
+    podcast_desc2:
+      "Aquí hablamos de clima, justicia ambiental y soluciones reales de forma ligera, accesible y transformadora. Cada conversación es una oportunidad para acercar conocimientos científicos, vivencias locales y experiencias de quienes ya enfrentan los impactos de la crisis.",
+    podcast_participa_titulo: "Quién participa:",
+    podcast_participa_1: "Jóvenes líderes que están moldeando el futuro",
+    podcast_participa_2:
+      "Comunidades de la Amazonía y otros territorios vulnerables",
+    podcast_participa_3:
+      "Activistas e investigadores comprometidos con la justicia climática",
+    podcast_chamada: "Dale play y sé parte de este diálogo.",
+    podcast_ep1: "Episodio nº 01: La Amazonía en Foco",
+    podcast_ep1_desc:
+      "En este primer episodio, conocerás a nuestras anfitrionas, que estarán presentes en los próximos episodios y guiarán importantes debates sobre el clima, Brasil y la COP30.",
+    podcast_btn: "Escuchar en Spotify",
+
+    // Pie de página
+    footer_menu: ["Comunidad", "COP 30", "Podcast", "Sobre nosotros"],
+    footer_instagram: "@shaperspeloclima",
+    footer_linkedin: "Shapers pelo Clima",
+    footer_spotify: "Clima de Diálogo",
+    footer_youtube: "Shapers pelo Clima",
+    footer_email: "cop30@globalshapers.com.br",
+    footer_direitos:
+      "Global Shapers es una iniciativa del Foro Económico Mundial ©2025 Shapers Pelo Clima",
   },
 };
 
