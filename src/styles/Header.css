@@ -148,7 +148,9 @@
 @media (max-width: 500px) {
   .header {
 
-
+.btn-cta {
+  display: none;
+}
 
     .header__nav {
       & li {
@@ -174,7 +176,7 @@
         color: rgba(245, 245, 245, 0);
 
         & .flag-icon {
-          width: 25px;
+          width: 30px;
           height: auto;
         }
       }
