@@ -399,7 +399,9 @@
 }
 
 @media (max-width: 480px) {
-.swiper {
+.global-shapers {
+
+    .swiper {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -425,5 +427,5 @@
     .swiper-button-next,
     .swiper-pagination {
         display: none !important;
-    }
+    }}
 }
