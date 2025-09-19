@@ -77,14 +77,15 @@ function ComunidadeGS({ lang }) {
     slidesPerView={4}
     navigation={{ clickable: true }}
     breakpoints={{
-      768: {
-        slidesPerView: 2,
-      },
-      480: {
-        slidesPerView: 1,
-        spaceBetween: 10,
-      },
-    }}
+    480: { // >= 480px
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    768: { // >= 768px
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  }}
   >
     {projetos.map((proj) => (
       <SwiperSlide key={proj.id}>
