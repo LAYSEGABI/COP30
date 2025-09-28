@@ -13,6 +13,8 @@ import Paula from "../assets/equipe/Paula.png";
 import Messias from "../assets/equipe/messias.jpeg";
 import Mackenzie from "../assets/equipe/Mackenzie.png";
 import Laura from "../assets/equipe/Laura.png";
+import Erick from "../assets/equipe/Erick.jpeg";
+import Kauan from "../assets/equipe/Kauan.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -87,11 +89,7 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src={Laura}
-                    alt=""
-                  />
+                  <img className="foto-perfil" src={Laura} alt="" />
                   <a
                     href="https://www.linkedin.com/in/laura-galvao-bio/"
                     target="_blank"
@@ -127,11 +125,7 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src={Mackenzie}
-                    alt=""
-                  />
+                  <img className="foto-perfil" src={Mackenzie} alt="" />
                   <a
                     href="https://www.linkedin.com/in/mackenziekuenz/"
                     target="_blank"
@@ -223,11 +217,7 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQH20vD2mOzf8Q/profile-displayphoto-scale_200_200/B4DZirQl61GgAY-/0/1755219911571?e=1759968000&v=beta&t=vfcjMCLvHb-Rw_MKf0snTloOGJQE9A1ryP57oFa_IGo"
-                    alt=""
-                  />
+                  <img className="foto-perfil" src={Erick} alt="" />
                   <a
                     href="https://www.linkedin.com/in/erick-lucius-a0aa3a2a3/"
                     target="_blank"
@@ -304,11 +294,7 @@ function SobreNos({ lang }) {
             <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src={Messias}
-                    alt=""
-                  />
+                  <img className="foto-perfil" src={Messias} alt="" />
                   <a
                     href="https://www.linkedin.com/in/messiasnns/"
                     target="_blank"
@@ -361,7 +347,7 @@ function SobreNos({ lang }) {
                 <h5>HUB São Paulo 2</h5>
               </div>
             </SwiperSlide>
-           {/* <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
                   <img className="foto-perfil" src="" alt="" />
@@ -598,6 +584,26 @@ function SobreNos({ lang }) {
                 <h4>João Pedro</h4>
                 <p>Parcerias</p>
                 <h5>HUB Rio de Janeiro</h5>
+              </div>
+            </SwiperSlide>
+             <SwiperSlide>
+              <div className="card-equipe">
+                <div className="perfil">
+                  <img
+                    className="foto-perfil"
+                    src={Kauan}
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/kaurodri/"
+                    target="_blank"
+                  >
+                    <img src={linkedin} alt="" />
+                  </a>
+                </div>
+                <h4>Kauan Barros</h4>
+                <p>Comunicação</p>
+                <h5>HUB Uberlândia</h5>
               </div>
             </SwiperSlide>
           </Swiper>

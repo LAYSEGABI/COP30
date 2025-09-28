@@ -143,81 +143,55 @@
         width: 100%;
         overflow: hidden;
         max-width: 100%;
-        cursor: grab;
+        cursor: pointer;
         padding: 3rem 0;
 
-
-
-        .swiper-button-next::after,
-        .swiper-button-prev::after {
-            color: rgb(19, 85, 39);
-            font-size: 3rem;
-            font-weight: bold;
-            background-color: rgba(179, 179, 179, 0.719);
-            padding: 1rem;
-            border-radius: 0 10px 0 10px;
-        }
-
-
-
-
-    }
-
-    .swiper {
-        background-color: var(--azul-preto);
-
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
-
-
-
-    .swiper-slide {
-        transition: 0.5s;
-        width: 280px !important;
-        margin: 0;
-        padding: 0;
-        gap: 0;
-
-    }
-
-    .card-projeto {
-        background: rgba(255, 255, 255, 0);
-        color: rgb(254, 255, 254);
-        width: 280px;
-        text-align: left;
-        overflow: hidden;
-
-        &>img {
-
+        &>.lista-projetos {
+            display: grid;
             width: 100%;
-            height: 100%;
-            border-radius: 10px;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            .card-projeto {
+                background: rgba(255, 255, 255, 0);
+                color: rgb(254, 255, 254);
+                width: 250px;
+                height: 100%;
+                margin: 1rem auto;
+                text-align: left;
+                overflow: hidden;
+
+                &>img {
+
+                    width: 100%;
+                    height: 100%;
+                    max-height: 250px;
+                    border-radius: 10px;
+                }
+
+                &>p {
+                    font-size: .9rem;
+                    opacity: 1;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                }
+
+                &>.local {
+                    color: rgb(255, 255, 255);
+                    background-color: #33a517;
+                    width: fit-content;
+                    padding: 3px 5px;
+                    font-weight: 400;
+                    margin: 5px 0;
+                    border-radius: 5px;
+                }
+            }
         }
 
-        &>p {
-            font-size: .9rem;
-            opacity: 1;
-            font-weight: 300;
-            letter-spacing: 1px;
-        }
 
-        &>.local {
-            color: rgb(255, 255, 255);
-            background-color: #33a517;
-            width: fit-content;
-            padding: 3px 5px;
-            font-weight: 400;
-            margin: 5px 0;
-            border-radius: 5px;
-        }
+
     }
+
 }
 
 .modal-overlay {
@@ -368,6 +342,14 @@
 }
 
 
+.lista-projetos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+
 @media (max-width: 650px) {
     .global-shapers {
         &>.container {
@@ -396,36 +378,4 @@
         }
 
     }
-}
-
-@media (max-width: 480px) {
-.global-shapers {
-
-    .swiper {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-    .swiper-wrapper {
-        display: grid !important;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        justify-items: center;
-        align-items: center;
-        /* espaçamento entre os cards */
-    }
-
-    /* Cada slide ocupa 100% da largura */
-    .swiper-slide {
-        width: 100% !important;
-        flex-shrink: 0;
-        margin: 0 !important; 
-    }
-
-    /* Esconde os controles de navegação no mobile */
-    .swiper-button-prev,
-    .swiper-button-next,
-    .swiper-pagination {
-        display: none !important;
-    }}
 }

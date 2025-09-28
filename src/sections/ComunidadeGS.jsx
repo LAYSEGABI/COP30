@@ -8,19 +8,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useState } from "react";
 import translations from "../lang/translations";
 
-import ImgProjetoPampa from "../assets/pampa.jpeg";
-import ImgProjetoMotyro from "../assets/motyroCapa.png";
-import ImgProjetoNossaHorta from "../assets/nossaHortaCapa.png";
-import ImgProjetoEcotrilhas from "../assets/imgEcotrilhas.png";
-
 function ComunidadeGS({ lang }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-
   const projetos = translations[lang].projetos;
-  
-  
+
   return (
     <section id="comunidade" className="global-shapers">
       <div className="container">
@@ -69,62 +62,46 @@ function ComunidadeGS({ lang }) {
           <h2>{translations[lang].comunidade_projetos}</h2>
           <p>{translations[lang].comunidade_projetos_desc}</p>
 
-         <div className="container-projetos">
-  <Swiper
-    modules={[Navigation, Pagination]}
-    spaceBetween={20}
-    loop={true}
-    slidesPerView={4}
-    navigation={{ clickable: true }}
-    breakpoints={{
-    480: { // >= 480px
-      slidesPerView: 2,
-      spaceBetween: 15,
-    },
-    768: { // >= 768px
-      slidesPerView: 4,
-      spaceBetween: 20,
-    },
-  }}
-  >
-    {projetos.map((proj) => (
-      <SwiperSlide key={proj.id}>
-        <div
-          className="card-projeto"
-          onClick={() => {
-            setSelectedProject(proj);
-            setIsOpen(true);
-          }}
-          style={{ cursor: "pointer" }}
-        >
-          {/* usa a imagem do próprio projeto */}
-          <img src={proj.img} alt={proj.titulo} />
-          <h3>{proj.titulo}</h3>
-          <p className="local">{proj.local}</p>
-          <p>{proj.subtitulo}</p>
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
+          <div className="container-projetos">
+            <div className="lista-projetos">
+              {projetos.map((proj) => (
+                <div
+                  key={proj.id}
+                  className="card-projeto"
+                  onClick={() => {
+                    setSelectedProject(proj);
+                    setIsOpen(true);
+                  }}
+                  style={{ cursor: "pointer" }}
+                >
+                  <img src={proj.img} alt={proj.titulo} />
+                  <h3>{proj.titulo}</h3>
+                  <p className="local">{proj.local}</p>
+                  <p>{proj.subtitulo}</p>
+                </div>
+              ))}
+            </div>
 
-  {/* Modal */}
-  {isOpen && selectedProject && (
-    <div className="modal-overlay" onClick={() => setIsOpen(false)}>
-      <div
-        className="modal-content"
-        onClick={(e) => e.stopPropagation()} // evita fechar ao clicar dentro
-      >
-        <button className="close-btn" onClick={() => setIsOpen(false)}>
-          X
-        </button>
-        <h2>{selectedProject.titulo}</h2>
-        <img src={selectedProject.img} alt={selectedProject.titulo} />
-        <p>{selectedProject.descricao}</p>
-      </div>
-    </div>
-  )}
-</div>
-
+            {/* Modal */}
+            {isOpen && selectedProject && (
+              <div className="modal-overlay" onClick={() => setIsOpen(false)}>
+                <div
+                  className="modal-content"
+                  onClick={(e) => e.stopPropagation()} // evita fechar ao clicar dentro
+                >
+                  <button
+                    className="close-btn"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    X
+                  </button>
+                  <h2>{selectedProject.titulo}</h2>
+                  <img src={selectedProject.img} alt={selectedProject.titulo} />
+                  <p>{selectedProject.descricao}</p>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>
