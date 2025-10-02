@@ -15,6 +15,7 @@ import Mackenzie from "../assets/equipe/Mackenzie.png";
 import Laura from "../assets/equipe/Laura.png";
 import Erick from "../assets/equipe/Erick.jpeg";
 import Kauan from "../assets/equipe/Kauan.png";
+import Vinicius from "../assets/equipe/Vinicius.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -174,7 +175,7 @@ function SobreNos({ lang }) {
                   </a>
                 </div>
                 <h4>Giovanni Ramos</h4>
-                <p>{translations[lang].equipe_comunicacao}</p>
+                <p>{translations[lang].equipe_formacao}</p>
                 <h5>HUB Ribeirão P.</h5>
               </div>
             </SwiperSlide>
@@ -491,7 +492,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQGv-RWl5jiN3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691160270582?e=1760572800&v=beta&t=d77wP52_L7xNAhY3D0S_zNQMEulra9KVlgsNwDEuGhI"
+                    src={Vinicius}
                     alt=""
                   />
                   <a
@@ -586,14 +587,10 @@ function SobreNos({ lang }) {
                 <h5>HUB Rio de Janeiro</h5>
               </div>
             </SwiperSlide>
-             <SwiperSlide>
+            <SwiperSlide>
               <div className="card-equipe">
                 <div className="perfil">
-                  <img
-                    className="foto-perfil"
-                    src={Kauan}
-                    alt=""
-                  />
+                  <img className="foto-perfil" src={Kauan} alt="" />
                   <a
                     href="https://www.linkedin.com/in/kaurodri/"
                     target="_blank"
