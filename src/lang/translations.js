@@ -100,6 +100,8 @@ const translations = {
       paises: "Países",
       jovens: "Jovens",
     },
+
+    comunidade_hub_belem_titulo: "Hub Belém",
     comunidade_hub_belem:
       "Segundo hub do Norte do Brasil, estabelecido em 2025, com foco em sustentabilidade, impacto social e tecnologia. Inspirado pela Amazônia, conecta inovação local a soluções globais.",
     comunidade_hub_belem_cta: "Conheça as iniciativas do hub.",
@@ -297,6 +299,7 @@ Resultados alcançados:
       jovens: "Youth",
     },
 
+    comunidade_hub_belem_titulo: "Belém Hub",
     comunidade_hub_belem:
       "The second hub in Northern Brazil, established in 2025, with a focus on sustainability, social impact, and technology. Inspired by the Amazon, it connects local innovation to global solutions.",
     comunidade_hub_belem_cta: "Learn about the hub's initiatives.",
@@ -492,12 +495,12 @@ Results achieved:
     equipe_formacao: "Formación",
 
     // Comunidad
-    comunidade_titulo: "La Global Shapers",
+    comunidade_titulo: "Nosotros somos Global Shapers ",
     comunidade_desc:
       "Una comunidad global de jóvenes que creen en el poder de la acción local para generar impacto global.",
     comunidade_hubs: "Hubs en el clima de la COP",
     comunidade_info:
-      "+20 hubs nacionales e internacionales unidos en favor de la justicia climática. En la COP30, nuestra voz resuena directamente desde la Amazonía al mundo.",
+      "Hubs nacionales e internacionales unidos en favor de la justicia climática. En la COP30, nuestra voz resuena directamente desde la Amazonía al mundo.",
     comunidade_historia:
       "Creada en 2011 por el Foro Económico Mundial, la Global Shapers Community reúne a más de 10.000 jóvenes en más de 500 hubs distribuidos en 150 países.",
     comunidade_rede:
@@ -506,6 +509,8 @@ Results achieved:
       paises: "Países",
       jovens: "Jóvenes",
     },
+
+    comunidade_hub_belem_titulo: "Hub Belén",
     comunidade_hub_belem:
       "Segundo hub del Norte de Brasil, establecido en 2025, con enfoque en sostenibilidad, impacto social y tecnología. Inspirado por la Amazonía, conecta innovación local con soluciones globales.",
     comunidade_hub_belem_cta: "Conoce las iniciativas del hub.",

@@ -47,7 +47,7 @@ function ComunidadeGS({ lang }) {
               <img src={MapaBrasil} alt="Mapa do Brasil" className="map" />
 
               <div className="map-popup">
-                <h3>Hub Belém</h3>
+                <h3>{translations[lang].comunidade_hub_belem_titulo}</h3>
                 <p>{translations[lang].comunidade_hub_belem}</p>
                 <a
                   href="https://www.instagram.com/globalshapershubbelem/"
