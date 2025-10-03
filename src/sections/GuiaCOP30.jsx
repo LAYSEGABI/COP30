@@ -6,9 +6,9 @@ import IconDownload from "../assets/download.svg";
 import translations from "../lang/translations";
 
 const pdfs = {
-  pt: "./public/Guia-de-Belem-PT.pdf",
-  en: "./public/Guia-de-Belem-EN.pdf",
-  es: "./public/Guia-de-Belem-ES.pdf",
+  pt: "/Guia-de-Belem-PT.pdf",
+  en: "/Guia-de-Belem-EN.pdf",
+  es: "/Guia-de-Belem-ES.pdf",
 };
 
 function GuiaCOP30({ lang }) {

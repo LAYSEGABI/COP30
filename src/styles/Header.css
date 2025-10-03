@@ -135,7 +135,7 @@
 
   .lang-btn {
     padding: 0;
-    color: rgba(245, 245, 245, 0);
+    color: rgb(245, 245, 245);
   }
 
   .langs-mobile {
@@ -172,8 +172,6 @@
 
       & .lang-btn {
         padding: 5px;
-
-        color: rgba(245, 245, 245, 0);
 
         & .flag-icon {
           width: 30px;
