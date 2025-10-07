@@ -16,6 +16,24 @@ import Laura from "../assets/equipe/Laura.png";
 import Erick from "../assets/equipe/Erick.jpeg";
 import Kauan from "../assets/equipe/Kauan.png";
 import Vinicius from "../assets/equipe/Vinicius.png";
+import Layse from "../assets/equipe/Layse.png";
+import Debora from "../assets/equipe/Debora.png";
+import Giovanni from "../assets/equipe/Giovanni.png";
+import Bianca from "../assets/equipe/Bianca.png";
+import Thais from "../assets/equipe/Thais.png";
+import Ana from "../assets/equipe/Ana.png";
+import Camila from "../assets/equipe/Camila.png";
+import Joao from "../assets/equipe/Joao.png";
+import Beatriz from "../assets/equipe/Beatriz.png";
+import Ruan from "../assets/equipe/Ruan.png";
+import Aida from "../assets/equipe/Aida.png";
+import Rafis from "../assets/equipe/Rafis.png";
+import Suellen from "../assets/equipe/Suellen.png";
+import Natalia from "../assets/equipe/Natalia.png";
+import Ghabryel from "../assets/equipe/Ghabryel.png";
+import Julia from "../assets/equipe/Julia.png";
+import Gabryela from "../assets/equipe/Gabryela.png";
+import Luis from "../assets/equipe/Luis.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import translations from "../lang/translations";
@@ -108,7 +126,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQH7-dnJdXUwdQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718629670668?e=1759968000&v=beta&t=5Cnv6U-ewH_kIfn0cSwUogbnUoHWG9gnW-UAEwjxaZk"
+                    src={Layse}
                     alt=""
                   />
                   <a
@@ -144,7 +162,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4E03AQHMsvEFREYuaQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729530831985?e=1759968000&v=beta&t=_2UtdhPIue1aeZB_PlCbaRxQ41U4-LEm74Ra66QyBvY"
+                    src={Debora}
                     alt=""
                   />
                   <a
@@ -164,7 +182,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEs-3O7mmgSJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731936136609?e=1759968000&v=beta&t=RsFUKbVi1LqhP9N-7yzwXAiEfHIiJFpOpb5Y5tLLHCo"
+                    src={Giovanni}
                     alt=""
                   />
                   <a
@@ -200,7 +218,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQHydQkF6fbvfQ/profile-displayphoto-shrink_200_200/B4DZWmMeGJHkAc-/0/1742250042311?e=1759968000&v=beta&t=pUIrfl8GjC0Ng4lb4Z92JQMAy9M6au5kQa0tTCil0-o"
+                    src={Bianca}
                     alt=""
                   />
                   <a
@@ -236,7 +254,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQHOvlS4b63AZA/profile-displayphoto-shrink_200_200/B4DZZETZG2HIAY-/0/1744902657347?e=1759968000&v=beta&t=ojZKdrVqsmc8r9OAk78ollOKebugMu4gyOyqFkrZDx8"
+                    src={Thais}
                     alt=""
                   />
                   <a
@@ -257,7 +275,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQGi2dE9LJnd2g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725883150554?e=1760572800&v=beta&t=26rNG1ZV2eYPoNVLpt3G0XLZj06cwvet_S3WkPXhmEI"
+                    src={Ana}
                     alt=""
                   />
                   <a
@@ -277,7 +295,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/C4D03AQGZjLf05EOAtQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1597440565632?e=1760572800&v=beta&t=ZL4zO90CIRY6e2lhOqLpMFgPzj0brB_aGuXNxxiFPjE"
+                    src={Camila}
                     alt=""
                   />
                   <a
@@ -313,7 +331,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQFGV17SXxTdqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698764018142?e=1760572800&v=beta&t=hfhxgX-ks7-acunnPEWlbnx8_zF7df-HLfjgzWyB7gI"
+                    src={Rafis}
                     alt=""
                   />
                   <a
@@ -333,7 +351,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQHIYdDLoaWL4w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719280826345?e=1760572800&v=beta&t=KR_1YnpeeZscQiS8lU_mletLiHY3AzqskN42uDTu388"
+                    src={Suellen}
                     alt=""
                   />
                   <a
@@ -366,7 +384,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQF3YPSP8-csyw/profile-displayphoto-shrink_200_200/B4DZZ8kLnfG4AY-/0/1745846583428?e=1760572800&v=beta&t=RnuGbpcOwBUua5yO0mrFO6MamX5OXhVUDnupmlvF3q4"
+                    src={Gabryela}
                     alt=""
                   />
                   <a
@@ -386,7 +404,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEUKH9AO6BvsQ/profile-displayphoto-scale_200_200/B4DZiz6IKHHwAY-/0/1755365021773?e=1760572800&v=beta&t=cue8EFeeR0CiVtP-l-sHCRdVToV-T5cDgBG46uMzH9I"
+                    src={Luis}
                     alt=""
                   />
                   <a
@@ -419,7 +437,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4E03AQFLo__YleZcFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728924718902?e=1760572800&v=beta&t=c36Ai5_cOo00BZ1phXWyPfP6IGieE9onjUlgh_Yi0OA"
+                    src={Julia}
                     alt=""
                   />
                   <a
@@ -439,7 +457,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQFxStBSHYLvpw/profile-displayphoto-shrink_200_200/B4DZdqwAwqGYAg-/0/1749842662659?e=1760572800&v=beta&t=d0jcXIxxUUPFTnC36soVGZGiCiv7-_bgLHXc66t5dR8"
+                    src={Ghabryel}
                     alt=""
                   />
                   <a
@@ -459,7 +477,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4E03AQFO5P8RkzqtTg/profile-displayphoto-scale_200_200/B4EZgYoMPuHIAg-/0/1752759851906?e=1760572800&v=beta&t=9erLTw8t0IdiB3446HdLfZpCnPWu1M5r_zzmoOcPjr0"
+                    src={Natalia}
                     alt=""
                   />
                   <a
@@ -512,7 +530,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQHdfDByK8PjuA/profile-displayphoto-scale_200_200/B4DZg8ZmvHHsAY-/0/1753360003697?e=1760572800&v=beta&t=zIhFyYFoGnxyw4TdEDXGmC-8MQ0MnjSYTIDVPtyxPvU"
+                    src={Aida}
                     alt=""
                   />
                   <a
@@ -532,7 +550,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D5603AQFCNXlhXqnEHQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730118135732?e=1760572800&v=beta&t=csLQ-3zMg-5YHR53yR682WjlmCGjPbjdnV8PPdnbyI4"
+                    src={Ruan}
                     alt=""
                   />
                   <a
@@ -552,7 +570,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQG9mDyn07Dutw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695227112324?e=1760572800&v=beta&t=nhpG-badOXLuqA_thq1AG1kDd6z18xnfVEu6lZHZ04s"
+                    src={Beatriz}
                     alt=""
                   />
                   <a
@@ -572,7 +590,7 @@ function SobreNos({ lang }) {
                 <div className="perfil">
                   <img
                     className="foto-perfil"
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEODoyN_l067g/profile-displayphoto-scale_200_200/B4DZjSqCBeGgAc-/0/1755880891185?e=1760572800&v=beta&t=0Ob6QI9xiH3aSChsrTbd1bLyp7mmnUT8SUH2xFYtqPM"
+                    src={Joao}
                     alt=""
                   />
                   <a
