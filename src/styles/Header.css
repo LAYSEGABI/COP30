@@ -48,6 +48,7 @@
 
 .langs {
   display: flex;
+  gap: 8px;
 }
 
 .langs-mobile {
@@ -58,19 +59,21 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  background: #2eec07a2;
-  border: 2px solid #2C5C58;
-  color: #ffffff;
-  padding: 6px;
-  border-radius: 50%;
+  background: #2dec077e;
+  border: 2px rgb(225, 255, 225) solid;
+  color: #fffdfd;
+  padding: 5px;
+  border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 400;
   transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.075);
 }
 
 .lang-btn:hover {
   background: #0f5a37dc;
   color: #fff;
+  box-shadow: none;
 }
 
 .flag-icon {
@@ -141,7 +144,7 @@
   .langs-mobile {
     display: block;
     display: flex;
-    gap: 5px;
+    gap: 10px;
   }
 }
 
@@ -168,15 +171,10 @@
 
     .langs-mobile {
       display: flex;
-      gap: 2px;
+      gap: 8px;
 
       & .lang-btn {
-        padding: 5px;
-
-        & .flag-icon {
-          width: 30px;
-          height: auto;
-        }
+        padding: 8px;
       }
     }
   }
