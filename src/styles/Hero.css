@@ -8,7 +8,8 @@
 
     overflow: hidden;
 
-    &>video {
+    &>video,
+    &>img {
         position: absolute;
         top: 0;
         left: 0;
@@ -18,6 +19,11 @@
         z-index: -1;
         /* fica atrás do conteúdo */
     }
+
+    &>.hero-image {
+        display: none;
+    }
+
 
     &>.container {
         position: relative;
@@ -114,4 +120,25 @@
             }
         }
     }
+}
+
+
+/* Mostrar imagem e ocultar vídeo em telas pequenas */
+@media (max-width: 568px) {
+  .hero video {
+    display: none;
+  }
+
+  .hero .hero-image {
+    display: block;
+  }
+}
+
+/* Conteúdo acima do vídeo/imagem */
+.hero .container {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
 }
