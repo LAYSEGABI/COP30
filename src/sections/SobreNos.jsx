@@ -18,6 +18,7 @@ import Kauan from "../assets/equipe/Kauan.png";
 import Vinicius from "../assets/equipe/Vinicius.png";
 import Layse from "../assets/equipe/Layse.png";
 import Debora from "../assets/equipe/Debora.png";
+import BeatrizPontes from "../assets/equipe/BeatrizPontes.png";
 import Giovanni from "../assets/equipe/Giovanni.png";
 import Bianca from "../assets/equipe/Bianca.png";
 import Thais from "../assets/equipe/Thais.png";
@@ -470,6 +471,26 @@ function SobreNos({ lang }) {
                 <h4>Ghabryel Henrique</h4>
                 <p>Parcerias</p>
                 <h5>HUB Uberlândia</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card-equipe">
+                <div className="perfil">
+                  <img
+                    className="foto-perfil"
+                    src={BeatrizPontes}
+                    alt=""
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/beatriz-pontes/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    target="_blank"
+                  >
+                    <img src={linkedin} alt="" />
+                  </a>
+                </div>
+                <h4>Beatriz Pontes</h4>
+                <p>Formações</p>
+                <h5>HUB São Paulo</h5>
               </div>
             </SwiperSlide>
             <SwiperSlide>
